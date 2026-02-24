@@ -1,5 +1,6 @@
-require("dotenv").config();
 //main bot file
+
+require("dotenv").config();
 
 const {Client, GatewayIntentBits, Collection} = require("discord.js");
 const fs = require("fs");
@@ -8,12 +9,17 @@ const messages = require("sql-cli/lib/messages");
 const TOKEN = process.env.TOKEN;
 
 //-------CLIENT SETUP---------
+//create a new Discord client with message intent
 const client = new Client({
     intents: [
         GatewayIntentBits.Guilds,
         GatewayIntentBits.GuildMessages,
         GatewayIntentBits.MessageContent
     ]
+});
+//bot ready
+client.once('clientReady', () => {
+    console.log(`Logged in as ${client.user.tag}`); //will show the name of the bot that you are running
 });
 
 client.commands = new Collection();
@@ -45,7 +51,7 @@ function getLevel(xp){
 
 //---------XP PER MESSAGE----------------
 client.on("messageCreate", (message) => {
-    if(message.author.bot) return;
+    if(message.author.bot) return; //ignore bot messages
 
     const id = message.author.id;
 
@@ -63,6 +69,11 @@ client.on("messageCreate", (message) => {
     }
 
     saveData();
+
+    // Respond to a specific message 
+    if (message.content.toLowerCase().includes("curtis")) { 
+        message.reply('stinky'); 
+    }
 
     //command handling
     if(!message.content.startsWith("!")) return;
