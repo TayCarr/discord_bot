@@ -8,3 +8,4 @@ make sure bot has permission to send messages in the channel
 commands
 !profile
 !fish
+!inventory
