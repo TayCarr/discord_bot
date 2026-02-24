@@ -1,0 +1,25 @@
+{
+  "name": "discord_bot",
+  "version": "1.0.0",
+  "description": "Basic discord bot, xp collector, rpg",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TayCarr/discord_bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TayCarr/discord_bot/issues"
+  },
+  "homepage": "https://github.com/TayCarr/discord_bot#readme",
+  "dependencies": {
+    "discord.js": "^14.25.1",
+    "dotenv": "^17.3.1",
+    "fs": "^0.0.1-security"
+  }
+}

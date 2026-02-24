@@ -1,0 +1,11 @@
+way to display inventory !inventory
+
+way to sell inventory !sell
+
+way to gamble coins !gamble 
+
+OR a few different things like !slot umm !rolldice idk diff gamble games
+
+!bang or something shoots a random person and they drop x coins maybe you shoot yourself
+
+
