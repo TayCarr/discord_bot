@@ -74,6 +74,9 @@ client.on("messageCreate", (message) => {
     if (message.content.toLowerCase().includes("curtis")) { 
         message.reply('stinky'); 
     }
+    if (message.content.toLowerCase().includes("taylor")) { 
+        message.react(`🔥`); 
+    }
 
     //command handling
     if(!message.content.startsWith("!")) return;
