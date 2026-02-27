@@ -25,12 +25,35 @@ client.once('clientReady', () => {
 client.commands = new Collection();
 
 //---------LOAD COMMANDS--------------------
-const commandFiles = fs.readdirSync("./commands").filter(file => file.endsWith(".js"));
+/*const commandFiles = fs.readdirSync("./commands").filter(file => file.endsWith(".js"));
 
 for (const file of commandFiles){
     const command = require(`./commands/${file}`);
     client.commands.set(command.name, command);
+}*/
+
+//----------LOAD COMMANDS W/ SUB DIRS--------------------
+const path = require("path");
+
+function loadCommands(dir){
+    const files = fs.readdirSync(dir);
+
+    for (const file of files){
+        const fullPath = path.join(dir, file);
+        const stat = fs.statSync(fullPath);
+
+        if(stat.isDirectory()){
+            //if folder go in
+            loadCommands(fullPath);
+        }
+        else if (file.endsWith(".js")){
+            const command = require(path.resolve(fullPath));
+            client.commands.set(command.name, command);
+        }
+    }
 }
+
+loadCommands("./commands");
 
 //------------USER DATA-------------------
 let data = {};

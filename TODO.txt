@@ -10,4 +10,6 @@ OR a few different things like !slot umm !rolldice idk diff gamble games
 
 add to profile command to follow with a users name and view their profile??
 
+for the ummm stats command since it is steams player id not the username i COULD have a way to save the id to the discord user and then after they have linked it they can just use their discord name 
+
 
