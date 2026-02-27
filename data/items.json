@@ -1,0 +1,3542 @@
+[
+  {
+    "id": 2976789773,
+    "class_name": "citadel_weapon_bosstier2_set",
+    "name": "citadel_weapon_bosstier2_set"
+  },
+  {
+    "id": 3317486525,
+    "class_name": "citadel_weapon_bosstier3_set",
+    "name": "citadel_weapon_bosstier3_set"
+  },
+  {
+    "id": 2470199706,
+    "class_name": "citadel_weapon_rutger_set",
+    "name": "citadel_weapon_rutger_set"
+  },
+  {
+    "id": 1115497205,
+    "class_name": "citadel_weapon_kali_set",
+    "name": "citadel_weapon_kali_set"
+  },
+  {
+    "id": 2790538565,
+    "class_name": "citadel_weapon_gunslinger_set",
+    "name": "citadel_weapon_gunslinger_set"
+  },
+  {
+    "id": 2772141905,
+    "class_name": "citadel_weapon_yakuza_set",
+    "name": "citadel_weapon_yakuza_set"
+  },
+  {
+    "id": 3033433915,
+    "class_name": "citadel_weapon_architect_set",
+    "name": "citadel_weapon_architect_set"
+  },
+  {
+    "id": 2914777625,
+    "class_name": "citadel_weapon_thumper_set",
+    "name": "citadel_weapon_thumper_set"
+  },
+  {
+    "id": 677666973,
+    "class_name": "ability_melee_butcher",
+    "name": "ability_melee_butcher"
+  },
+  {
+    "id": 2950623773,
+    "class_name": "citadel_ability_melee_kali",
+    "name": "Melee"
+  },
+  {
+    "id": 755819616,
+    "class_name": "citadel_ability_melee_butcher",
+    "name": "citadel_ability_melee_butcher"
+  },
+  {
+    "id": 3299584775,
+    "class_name": "citadel_ability_melee_gunslinger",
+    "name": "citadel_ability_melee_gunslinger"
+  },
+  {
+    "id": 3571834135,
+    "class_name": "citadel_ability_melee_yakuza",
+    "name": "citadel_ability_melee_yakuza"
+  },
+  {
+    "id": 1208692244,
+    "class_name": "citadel_ability_melee_thumper",
+    "name": "citadel_ability_melee_thumper"
+  },
+  {
+    "id": 3123925900,
+    "class_name": "citadel_ability_melee_architect",
+    "name": "citadel_ability_melee_architect"
+  },
+  {
+    "id": 4182904284,
+    "class_name": "rutger_rocket",
+    "name": "rutger_rocket"
+  },
+  {
+    "id": 639385332,
+    "class_name": "rutger_force_field",
+    "name": "rutger_force_field"
+  },
+  {
+    "id": 1613872264,
+    "class_name": "rutger_cheat_death",
+    "name": "rutger_cheat_death"
+  },
+  {
+    "id": 363299194,
+    "class_name": "rutger_pulse",
+    "name": "rutger_pulse"
+  },
+  {
+    "id": 4260284622,
+    "class_name": "citadel_ability_kali_spinning_blade",
+    "name": "citadel_ability_kali_spinning_blade"
+  },
+  {
+    "id": 21628267,
+    "class_name": "ability_kali_dust_storm",
+    "name": "ability_kali_dust_storm"
+  },
+  {
+    "id": 3219375905,
+    "class_name": "citadel_ability_kali_disruptive_charge",
+    "name": "citadel_ability_kali_disruptive_charge"
+  },
+  {
+    "id": 488392205,
+    "class_name": "ability_kali_trappers_bolo",
+    "name": "ability_kali_trappers_bolo"
+  },
+  {
+    "id": 2984400727,
+    "class_name": "yakuza_kobun",
+    "name": "yakuza_kobun"
+  },
+  {
+    "id": 3577477084,
+    "class_name": "yakuza_shakedown_target",
+    "name": "yakuza_shakedown_target"
+  },
+  {
+    "id": 3908497730,
+    "class_name": "yakuza_setting_sun",
+    "name": "yakuza_setting_sun"
+  },
+  {
+    "id": 1584495732,
+    "class_name": "yakuza_protection_racket",
+    "name": "yakuza_protection_racket"
+  },
+  {
+    "id": 348689004,
+    "class_name": "thumper_ability_1",
+    "name": "thumper_ability_1"
+  },
+  {
+    "id": 2086284285,
+    "class_name": "thumper_ability_2",
+    "name": "thumper_ability_2"
+  },
+  {
+    "id": 2489807574,
+    "class_name": "thumper_ability_3",
+    "name": "thumper_ability_3"
+  },
+  {
+    "id": 2563620507,
+    "class_name": "thumper_ability_4",
+    "name": "thumper_ability_4"
+  },
+  {
+    "id": 3152711215,
+    "class_name": "citadel_hold_melee",
+    "name": "citadel_hold_melee"
+  },
+  {
+    "id": 384715776,
+    "class_name": "citadel_ability_melee_genericperson",
+    "name": "Melee"
+  },
+  {
+    "id": 2826225210,
+    "class_name": "weapon_alternative_rmb_activate",
+    "name": "weapon_alternative_rmb_activate"
+  },
+  {
+    "id": 1983361803,
+    "class_name": "weapon_alternative_rmb+lmb_activate",
+    "name": "weapon_alternative_rmb+lmb_activate"
+  },
+  {
+    "id": 2082220949,
+    "class_name": "citadel_weapon_astro_set",
+    "name": "Doc's Orders"
+  },
+  {
+    "id": 1398703271,
+    "class_name": "citadel_weapon_astro_set_shotgun",
+    "name": "citadel_weapon_astro_set_shotgun"
+  },
+  {
+    "id": 4161463520,
+    "class_name": "citadel_weapon_astro_set_shotgun_backwards",
+    "name": "citadel_weapon_astro_set_shotgun_backwards"
+  },
+  {
+    "id": 519260576,
+    "class_name": "ability_melee_astro",
+    "name": "Melee"
+  },
+  {
+    "id": 1235098866,
+    "class_name": "ability_explosive_barrel",
+    "name": "Powder Keg"
+  },
+  {
+    "id": 2240607294,
+    "class_name": "ability_bounce_pad",
+    "name": "Bounce Pad"
+  },
+  {
+    "id": 943923461,
+    "class_name": "ability_target_practice",
+    "name": "ability_target_practice"
+  },
+  {
+    "id": 3190606822,
+    "class_name": "ability_gravity_lasso",
+    "name": "Spirit Lasso"
+  },
+  {
+    "id": 2395530931,
+    "class_name": "ability_astro_shotgun_toggle",
+    "name": "ability_astro_shotgun_toggle"
+  },
+  {
+    "id": 3000276336,
+    "class_name": "ability_astro_rifle",
+    "name": "ability_astro_rifle"
+  },
+  {
+    "id": 3913047754,
+    "class_name": "ability_hat_trick",
+    "name": "Hat Trick"
+  },
+  {
+    "id": 669936916,
+    "class_name": "citadel_weapon_astro_hand_cannon",
+    "name": "citadel_weapon_astro_hand_cannon"
+  },
+  {
+    "id": 4179229681,
+    "class_name": "ability_crackshot",
+    "name": "Crackshot"
+  },
+  {
+    "id": 3609948706,
+    "class_name": "citadel_weapon_bull_set",
+    "name": "citadel_weapon_bull_set"
+  },
+  {
+    "id": 3415298717,
+    "class_name": "citadel_ability_melee_bull",
+    "name": "Melee"
+  },
+  {
+    "id": 2824119765,
+    "class_name": "citadel_ability_bull_charge",
+    "name": "Shoulder Charge"
+  },
+  {
+    "id": 715762406,
+    "class_name": "citadel_ability_passive_beefy",
+    "name": "Infernal Resilience"
+  },
+  {
+    "id": 509856396,
+    "class_name": "citadel_ability_bull_leap",
+    "name": "Seismic Impact"
+  },
+  {
+    "id": 4072270083,
+    "class_name": "citadel_ability_bull_heal",
+    "name": "Siphon Life"
+  },
+  {
+    "id": 3764085067,
+    "class_name": "citadel_weapon_bebop_set",
+    "name": "Humble Pie"
+  },
+  {
+    "id": 2373292985,
+    "class_name": "citadel_ability_melee_bebop",
+    "name": "Melee"
+  },
+  {
+    "id": 3089858203,
+    "class_name": "citadel_ability_uppercut",
+    "name": "Exploding Uppercut"
+  },
+  {
+    "id": 2521902222,
+    "class_name": "citadel_ability_sticky_bomb",
+    "name": "Sticky Bomb"
+  },
+  {
+    "id": 3832675871,
+    "class_name": "citadel_ability_bebop_laser_beam",
+    "name": "Hyper Beam"
+  },
+  {
+    "id": 1928108461,
+    "class_name": "citadel_ability_hook",
+    "name": "Grapple Arm"
+  },
+  {
+    "id": 3303049331,
+    "class_name": "ability_bebop_stickybomb2",
+    "name": "Sticky Bomb"
+  },
+  {
+    "id": 2605652378,
+    "class_name": "citadel_weapon_bomber_set",
+    "name": "citadel_weapon_bomber_set"
+  },
+  {
+    "id": 1759542823,
+    "class_name": "ability_melee_bomber",
+    "name": "ability_melee_bomber"
+  },
+  {
+    "id": 3338528319,
+    "class_name": "ability_charged_bomb",
+    "name": "ability_charged_bomb"
+  },
+  {
+    "id": 3875361929,
+    "class_name": "ability_bomber_ability02",
+    "name": "ability_bomber_ability02"
+  },
+  {
+    "id": 4081662205,
+    "class_name": "ability_bomber_ability03",
+    "name": "ability_bomber_ability03"
+  },
+  {
+    "id": 3232290270,
+    "class_name": "ability_bomber_ult",
+    "name": "ability_bomber_ult"
+  },
+  {
+    "id": 3155417712,
+    "class_name": "citadel_weapon_cadence_set",
+    "name": "citadel_weapon_cadence_set"
+  },
+  {
+    "id": 852374872,
+    "class_name": "citadel_ability_melee_cadence",
+    "name": "citadel_ability_melee_cadence"
+  },
+  {
+    "id": 1157620447,
+    "class_name": "cadence_ability_anthem",
+    "name": "cadence_ability_anthem"
+  },
+  {
+    "id": 957095276,
+    "class_name": "cadence_ability_lullaby",
+    "name": "cadence_ability_lullaby"
+  },
+  {
+    "id": 421275722,
+    "class_name": "cadence_ability_silencecontraptions",
+    "name": "cadence_ability_silencecontraptions"
+  },
+  {
+    "id": 3356256357,
+    "class_name": "cadence_ability_grandfinale",
+    "name": "cadence_ability_grandfinale"
+  },
+  {
+    "id": 599532073,
+    "class_name": "cadence_ability_crescendo",
+    "name": "cadence_ability_crescendo"
+  },
+  {
+    "id": 2390964381,
+    "class_name": "citadel_weapon_chrono_set",
+    "name": "Trade Secret"
+  },
+  {
+    "id": 3672737523,
+    "class_name": "citadel_ability_melee_chrono",
+    "name": "Melee"
+  },
+  {
+    "id": 58655583,
+    "class_name": "citadel_ability_chrono_pulse_grenade",
+    "name": "Pulse Grenade"
+  },
+  {
+    "id": 1366719170,
+    "class_name": "citadel_ability_chrono_time_wall",
+    "name": "Time Wall"
+  },
+  {
+    "id": 1128670012,
+    "class_name": "citadel_ability_chrono_kinetic_carbine",
+    "name": "Kinetic Carbine"
+  },
+  {
+    "id": 2917891787,
+    "class_name": "citadel_ability_chrono_swap",
+    "name": "Paradoxical Swap"
+  },
+  {
+    "id": 602440127,
+    "class_name": "citadel_weapon_sumo_set",
+    "name": "citadel_weapon_sumo_set"
+  },
+  {
+    "id": 855695370,
+    "class_name": "citadel_ability_melee_sumo",
+    "name": "Melee"
+  },
+  {
+    "id": 3760705623,
+    "class_name": "citadel_ability_stomp",
+    "name": "Kinetic Pulse"
+  },
+  {
+    "id": 2031714424,
+    "class_name": "citadel_ability_void_sphere",
+    "name": "Quantum Entanglement"
+  },
+  {
+    "id": 3954890388,
+    "class_name": "citadel_ability_charged_tackle",
+    "name": "citadel_ability_charged_tackle"
+  },
+  {
+    "id": 492030745,
+    "class_name": "citadel_ability_nikuman",
+    "name": "Rejuvenating Aurora"
+  },
+  {
+    "id": 249410288,
+    "class_name": "citadel_ability_self_vacuum",
+    "name": "Singularity"
+  },
+  {
+    "id": 1975078202,
+    "class_name": "citadel_weapon_engineer_set",
+    "name": "citadel_weapon_engineer_set"
+  },
+  {
+    "id": 2660222379,
+    "class_name": "citadel_ability_melee_engineer",
+    "name": "Melee"
+  },
+  {
+    "id": 2142734020,
+    "class_name": "citadel_ability_mobile_resupply",
+    "name": "Medicinal Specter"
+  },
+  {
+    "id": 3133377790,
+    "class_name": "citadel_ability_shieldedsentry",
+    "name": "Mini Turret"
+  },
+  {
+    "id": 1725685134,
+    "class_name": "citadel_ability_fissure_wall",
+    "name": "Spectral Wall"
+  },
+  {
+    "id": 3503044146,
+    "class_name": "citadel_ability_rocket_barrage",
+    "name": "Heavy Barrage"
+  },
+  {
+    "id": 1150061901,
+    "class_name": "citadel_weapon_genericperson_set",
+    "name": "citadel_weapon_genericperson_set"
+  },
+  {
+    "id": 1558668879,
+    "class_name": "citadel_weapon_ghost_set",
+    "name": "Johann's Gift"
+  },
+  {
+    "id": 2500675101,
+    "class_name": "ability_melee_ghost",
+    "name": "Melee"
+  },
+  {
+    "id": 715325746,
+    "class_name": "ability_blood_bomb",
+    "name": "Essence Bomb"
+  },
+  {
+    "id": 3230530872,
+    "class_name": "ability_blood_shards",
+    "name": "Malice"
+  },
+  {
+    "id": 218284420,
+    "class_name": "ability_life_drain",
+    "name": "Life Drain"
+  },
+  {
+    "id": 2364803451,
+    "class_name": "ability_death_tax",
+    "name": "ability_death_tax"
+  },
+  {
+    "id": 1307289689,
+    "class_name": "ability_health_swap",
+    "name": "Soul Exchange"
+  },
+  {
+    "id": 2695625322,
+    "class_name": "citadel_weapon_gigawatt_set",
+    "name": "Cold Calculus"
+  },
+  {
+    "id": 2372182196,
+    "class_name": "citadel_ability_melee_gigawatt",
+    "name": "Melee"
+  },
+  {
+    "id": 1065103387,
+    "class_name": "citadel_ability_lightning_ball",
+    "name": "Lightning Ball"
+  },
+  {
+    "id": 1074714947,
+    "class_name": "citadel_ability_static_charge",
+    "name": "Static Charge"
+  },
+  {
+    "id": 1939833676,
+    "class_name": "citadel_ability_static_charge_v2",
+    "name": "Static Charge"
+  },
+  {
+    "id": 3534969709,
+    "class_name": "citadel_ability_chain_lightning",
+    "name": "citadel_ability_chain_lightning"
+  },
+  {
+    "id": 539192269,
+    "class_name": "ability_power_surge",
+    "name": "Power Surge"
+  },
+  {
+    "id": 2061574352,
+    "class_name": "citadel_ability_storm_cloud",
+    "name": "Storm Cloud"
+  },
+  {
+    "id": 2679155647,
+    "class_name": "citadel_weapon_haze_set",
+    "name": "Censure & Penance"
+  },
+  {
+    "id": 3104292528,
+    "class_name": "ability_melee_haze",
+    "name": "Melee"
+  },
+  {
+    "id": 2948410412,
+    "class_name": "ability_sleep_dagger",
+    "name": "Sleep Dagger"
+  },
+  {
+    "id": 2414191464,
+    "class_name": "ability_smoke_bomb",
+    "name": "Smoke Bomb"
+  },
+  {
+    "id": 1080948381,
+    "class_name": "ability_stacking_damage",
+    "name": "Fixation"
+  },
+  {
+    "id": 731943444,
+    "class_name": "ability_bullet_flurry",
+    "name": "Bullet Dance"
+  },
+  {
+    "id": 3510968490,
+    "class_name": "citadel_weapon_hornet_set",
+    "name": "Wallflower's Revenge"
+  },
+  {
+    "id": 1619999260,
+    "class_name": "citadel_ability_melee_hornet",
+    "name": "Melee"
+  },
+  {
+    "id": 636273017,
+    "class_name": "citadel_ability_wing_blast",
+    "name": "citadel_ability_wing_blast"
+  },
+  {
+    "id": 537527508,
+    "class_name": "citadel_ability_hornet_chain",
+    "name": "Stake"
+  },
+  {
+    "id": 1796564033,
+    "class_name": "citadel_ability_hornet_leap",
+    "name": "Flight"
+  },
+  {
+    "id": 2048438176,
+    "class_name": "citadel_ability_hornet_sting",
+    "name": "Crow Familiar"
+  },
+  {
+    "id": 775377419,
+    "class_name": "citadel_ability_hornet_snipe",
+    "name": "Assassinate"
+  },
+  {
+    "id": 3965226174,
+    "class_name": "citadel_ability_hornet_mark",
+    "name": "citadel_ability_hornet_mark"
+  },
+  {
+    "id": 556186193,
+    "class_name": "citadel_weapon_inferno_set",
+    "name": "Incendiary Remarks"
+  },
+  {
+    "id": 750371308,
+    "class_name": "ability_melee_inferno",
+    "name": "Melee"
+  },
+  {
+    "id": 1142270357,
+    "class_name": "ability_fire_bomb",
+    "name": "Concussive Combustion"
+  },
+  {
+    "id": 3516947824,
+    "class_name": "ability_flame_dash",
+    "name": "Flame Dash"
+  },
+  {
+    "id": 491391007,
+    "class_name": "ability_incendiary_projectile",
+    "name": "Napalm"
+  },
+  {
+    "id": 1593133799,
+    "class_name": "ability_afterburn",
+    "name": "Afterburn"
+  },
+  {
+    "id": 3576988085,
+    "class_name": "citadel_weapon_kelvin_set",
+    "name": "Expedition's End"
+  },
+  {
+    "id": 3403409980,
+    "class_name": "ability_melee_kelvin",
+    "name": "Melee"
+  },
+  {
+    "id": 2351041382,
+    "class_name": "ability_icebeam",
+    "name": "Arctic Beam"
+  },
+  {
+    "id": 1963397252,
+    "class_name": "ability_icepath",
+    "name": "Ice Path"
+  },
+  {
+    "id": 18921423,
+    "class_name": "ability_ice_grenade",
+    "name": "Frost Grenade"
+  },
+  {
+    "id": 3826390464,
+    "class_name": "ability_ice_dome",
+    "name": "Frozen Shelter"
+  },
+  {
+    "id": 2896288811,
+    "class_name": "citadel_weapon_lash_set",
+    "name": "Tale of The Tape"
+  },
+  {
+    "id": 3283820257,
+    "class_name": "ability_melee_lash",
+    "name": "Melee"
+  },
+  {
+    "id": 2670099061,
+    "class_name": "citadel_ability_lash",
+    "name": "Grapple"
+  },
+  {
+    "id": 3561817145,
+    "class_name": "citadel_ability_lash_down_strike",
+    "name": "Ground Strike"
+  },
+  {
+    "id": 397010810,
+    "class_name": "citadel_ability_lash_ultimate",
+    "name": "Death Slam"
+  },
+  {
+    "id": 519124136,
+    "class_name": "ability_lash_flog",
+    "name": "Flog"
+  },
+  {
+    "id": 2942562744,
+    "class_name": "citadel_weapon_mirage_set",
+    "name": "Promises Kept"
+  },
+  {
+    "id": 511524160,
+    "class_name": "ability_melee_mirage",
+    "name": "Melee"
+  },
+  {
+    "id": 1336069669,
+    "class_name": "mirage_tornado",
+    "name": "Tornado"
+  },
+  {
+    "id": 2221949202,
+    "class_name": "mirage_sand_phantom",
+    "name": "Djinn's Mark"
+  },
+  {
+    "id": 3733594387,
+    "class_name": "mirage_fire_beetles",
+    "name": "Fire Scarabs"
+  },
+  {
+    "id": 2604653402,
+    "class_name": "mirage_teleport",
+    "name": "Traveler"
+  },
+  {
+    "id": 1895060499,
+    "class_name": "citadel_weapon_digger_set",
+    "name": "citadel_weapon_digger_set"
+  },
+  {
+    "id": 1400683724,
+    "class_name": "ability_melee_digger",
+    "name": "Melee"
+  },
+  {
+    "id": 1454278799,
+    "class_name": "ability_intimidate",
+    "name": "Scorn"
+  },
+  {
+    "id": 2406758797,
+    "class_name": "ability_burrow",
+    "name": "Burrow"
+  },
+  {
+    "id": 1914797280,
+    "class_name": "ability_throw_sand",
+    "name": "Sand Blast"
+  },
+  {
+    "id": 1917840730,
+    "class_name": "ability_ult_combo",
+    "name": "Combo"
+  },
+  {
+    "id": 1273162367,
+    "class_name": "citadel_weapon_digger_set2",
+    "name": "citadel_weapon_digger_set2"
+  },
+  {
+    "id": 4007624791,
+    "class_name": "ability_digger_mudshield",
+    "name": "Mud Shield"
+  },
+  {
+    "id": 3108987282,
+    "class_name": "citadel_weapon_nano_set",
+    "name": "Sweetest Lie"
+  },
+  {
+    "id": 3386449071,
+    "class_name": "citadel_weapon_nano_alt",
+    "name": "Sweetest Lie"
+  },
+  {
+    "id": 3861289372,
+    "class_name": "ability_melee_nano",
+    "name": "Melee"
+  },
+  {
+    "id": 3377867107,
+    "class_name": "ability_perched_predator",
+    "name": "Sekhmet's Spirit"
+  },
+  {
+    "id": 1565699451,
+    "class_name": "ability_rolling_fireball",
+    "name": "ability_rolling_fireball"
+  },
+  {
+    "id": 3467292895,
+    "class_name": "ability_nano_pounce",
+    "name": "Pounce"
+  },
+  {
+    "id": 1430464147,
+    "class_name": "ability_nano_pounce_instant",
+    "name": "ability_nano_pounce_instant"
+  },
+  {
+    "id": 755723302,
+    "class_name": "ability_nano_proximity_ritual",
+    "name": "Nekomata Ward"
+  },
+  {
+    "id": 4081368554,
+    "class_name": "ability_nano_shadow_step",
+    "name": "Queen of Shadows"
+  },
+  {
+    "id": 1009029159,
+    "class_name": "ability_nano_catform",
+    "name": "Ava"
+  },
+  {
+    "id": 4131517918,
+    "class_name": "ability_nano_clustergrenade",
+    "name": "Gloom Bombs"
+  },
+  {
+    "id": 2054144742,
+    "class_name": "ability_nano_shadow_pulse",
+    "name": "Return to Shadows"
+  },
+  {
+    "id": 1426567660,
+    "class_name": "ability_nano_dash",
+    "name": "Leaping Slash"
+  },
+  {
+    "id": 2402901451,
+    "class_name": "citadel_weapon_archer_set",
+    "name": "citadel_weapon_archer_set"
+  },
+  {
+    "id": 4220996204,
+    "class_name": "ability_melee_archer",
+    "name": "Melee"
+  },
+  {
+    "id": 548943648,
+    "class_name": "ability_charged_shot",
+    "name": "Charged Shot"
+  },
+  {
+    "id": 3452399392,
+    "class_name": "ability_power_jump",
+    "name": "Rain of Arrows"
+  },
+  {
+    "id": 512733154,
+    "class_name": "ability_immobilize_trap",
+    "name": "Spirit Snare"
+  },
+  {
+    "id": 3242902780,
+    "class_name": "ability_guided_arrow",
+    "name": "Guided Owl"
+  },
+  {
+    "id": 3121968594,
+    "class_name": "citadel_weapon_shiv_set",
+    "name": "Busted Flush"
+  },
+  {
+    "id": 225271804,
+    "class_name": "citadel_weapon_shiv_alt",
+    "name": "Busted Flush"
+  },
+  {
+    "id": 11664367,
+    "class_name": "citadel_ability_melee_shiv",
+    "name": "Melee"
+  },
+  {
+    "id": 2460791803,
+    "class_name": "citadel_ability_shiv_dagger",
+    "name": "Serrated Knives"
+  },
+  {
+    "id": 1458044103,
+    "class_name": "citadel_ability_shiv_dash",
+    "name": "Slice and Dice"
+  },
+  {
+    "id": 1537272748,
+    "class_name": "citadel_ability_shiv_defer_damage",
+    "name": "Bloodletting"
+  },
+  {
+    "id": 1835738020,
+    "class_name": "citadel_ability_shiv_killing_blow",
+    "name": "Killing Blow"
+  },
+  {
+    "id": 215719738,
+    "class_name": "citadel_weapon_shieldguy_set",
+    "name": "citadel_weapon_shieldguy_set"
+  },
+  {
+    "id": 17949280,
+    "class_name": "ability_melee_shieldguy",
+    "name": "ability_melee_shieldguy"
+  },
+  {
+    "id": 2935955509,
+    "class_name": "ability_shieldguy_ability01",
+    "name": "ability_shieldguy_ability01"
+  },
+  {
+    "id": 2322200384,
+    "class_name": "ability_shieldguy_ability02",
+    "name": "ability_shieldguy_ability02"
+  },
+  {
+    "id": 1105433407,
+    "class_name": "ability_shieldguy_ability03",
+    "name": "ability_shieldguy_ability03"
+  },
+  {
+    "id": 2824729668,
+    "class_name": "ability_shieldguy_ult",
+    "name": "ability_shieldguy_ult"
+  },
+  {
+    "id": 2080724972,
+    "class_name": "citadel_weapon_slork_set",
+    "name": "Riptide"
+  },
+  {
+    "id": 347080770,
+    "class_name": "fathom_scalding_spray",
+    "name": "Scalding Spray"
+  },
+  {
+    "id": 2732213553,
+    "class_name": "fathom_breach",
+    "name": "Breach"
+  },
+  {
+    "id": 2611201292,
+    "class_name": "fathom_defer_damage",
+    "name": "fathom_defer_damage"
+  },
+  {
+    "id": 1898352041,
+    "class_name": "fathom_reefdweller_harpoon",
+    "name": "Reefdweller Harpoon"
+  },
+  {
+    "id": 1851171544,
+    "class_name": "fathom_lurkers_ambush",
+    "name": "Lurker's Ambush"
+  },
+  {
+    "id": 3383556212,
+    "class_name": "citadel_weapon_synth_set",
+    "name": "The Black Sheep"
+  },
+  {
+    "id": 1976701714,
+    "class_name": "synth_plasma_flux",
+    "name": "Flying Cloak"
+  },
+  {
+    "id": 3747867012,
+    "class_name": "synth_pulse",
+    "name": "Enchanter's Satchel"
+  },
+  {
+    "id": 4025828983,
+    "class_name": "synth_grasp",
+    "name": "synth_grasp"
+  },
+  {
+    "id": 938149308,
+    "class_name": "synth_barrage",
+    "name": "Barrage"
+  },
+  {
+    "id": 2274219904,
+    "class_name": "synth_blitz",
+    "name": "synth_blitz"
+  },
+  {
+    "id": 2954330093,
+    "class_name": "synth_affliction",
+    "name": "Affliction"
+  },
+  {
+    "id": 1961353863,
+    "class_name": "citadel_weapon_tengu_set",
+    "name": "Protector's Hand"
+  },
+  {
+    "id": 2840115251,
+    "class_name": "citadel_ability_melee_tengu",
+    "name": "Melee"
+  },
+  {
+    "id": 1531378655,
+    "class_name": "citadel_ability_tangotether",
+    "name": "Watcher's Covenant"
+  },
+  {
+    "id": 4111222521,
+    "class_name": "citadel_ability_tengu_urn",
+    "name": "Kudzu Bomb"
+  },
+  {
+    "id": 3642273386,
+    "class_name": "citadel_ability_tengu_stone_form",
+    "name": "Stone Form"
+  },
+  {
+    "id": 1247583368,
+    "class_name": "citadel_ability_tengu_airlift",
+    "name": "Air Drop"
+  },
+  {
+    "id": 2053287272,
+    "class_name": "citadel_weapon_tokamak_set",
+    "name": "citadel_weapon_tokamak_set"
+  },
+  {
+    "id": 3208168586,
+    "class_name": "citadel_ability_melee_tokamak",
+    "name": "Melee"
+  },
+  {
+    "id": 1564303265,
+    "class_name": "tokamak_hot_shot",
+    "name": "tokamak_hot_shot"
+  },
+  {
+    "id": 2785646790,
+    "class_name": "tokamak_breach",
+    "name": "tokamak_breach"
+  },
+  {
+    "id": 1498385915,
+    "class_name": "tokamak_radiance",
+    "name": "tokamak_radiance"
+  },
+  {
+    "id": 6698938,
+    "class_name": "tokamak_heat_sinks",
+    "name": "tokamak_heat_sinks"
+  },
+  {
+    "id": 4042747505,
+    "class_name": "tokamak_dying_star",
+    "name": "tokamak_dying_star"
+  },
+  {
+    "id": 4264339460,
+    "class_name": "tokamak_crimson_cannon",
+    "name": "tokamak_crimson_cannon"
+  },
+  {
+    "id": 3413773852,
+    "class_name": "citadel_weapon_viscous_set",
+    "name": "Deep Sea Interpreter"
+  },
+  {
+    "id": 3819944797,
+    "class_name": "citadel_weapon_viscous_set_2",
+    "name": "citadel_weapon_viscous_set_2"
+  },
+  {
+    "id": 3914911135,
+    "class_name": "ability_melee_viscous",
+    "name": "Melee"
+  },
+  {
+    "id": 3247040238,
+    "class_name": "viscous_goo_grenade",
+    "name": "Splatter"
+  },
+  {
+    "id": 3788152387,
+    "class_name": "viscous_restorative_goo",
+    "name": "The Cube"
+  },
+  {
+    "id": 3584864021,
+    "class_name": "viscous_goo_puddle",
+    "name": "viscous_goo_puddle"
+  },
+  {
+    "id": 4206531918,
+    "class_name": "viscous_goo_bowling_ball",
+    "name": "Goo Ball"
+  },
+  {
+    "id": 1020817390,
+    "class_name": "viscous_telepunch",
+    "name": "Puddle Punch"
+  },
+  {
+    "id": 816395058,
+    "class_name": "citadel_weapon_warden_set",
+    "name": "Freedom's Cost"
+  },
+  {
+    "id": 3433765565,
+    "class_name": "citadel_ability_melee_warden",
+    "name": "Melee"
+  },
+  {
+    "id": 1656913918,
+    "class_name": "ability_warden_lock_down",
+    "name": "Binding Word"
+  },
+  {
+    "id": 2751689917,
+    "class_name": "ability_warden_high_alert",
+    "name": "Willpower"
+  },
+  {
+    "id": 2656490109,
+    "class_name": "ability_warden_crowd_control",
+    "name": "Alchemical Flask"
+  },
+  {
+    "id": 2702908623,
+    "class_name": "ability_warden_riot_protocol",
+    "name": "Last Stand"
+  },
+  {
+    "id": 1427059555,
+    "class_name": "citadel_weapon_wraith_set",
+    "name": "The Rake"
+  },
+  {
+    "id": 1192327851,
+    "class_name": "citadel_ability_melee_wraith",
+    "name": "Melee"
+  },
+  {
+    "id": 2981692841,
+    "class_name": "citadel_ability_psychic_lift",
+    "name": "Telekinesis"
+  },
+  {
+    "id": 4147641675,
+    "class_name": "citadel_ability_projectmind",
+    "name": "Project Mind"
+  },
+  {
+    "id": 2220233739,
+    "class_name": "citadel_ability_psychic_daggers",
+    "name": "citadel_ability_psychic_daggers"
+  },
+  {
+    "id": 1842576017,
+    "class_name": "citadel_ability_wraith_rapidfire",
+    "name": "Full Auto"
+  },
+  {
+    "id": 1999680326,
+    "class_name": "citadel_ability_card_toss",
+    "name": "Card Trick"
+  },
+  {
+    "id": 94928941,
+    "class_name": "citadel_ability_psychic_pulse",
+    "name": "citadel_ability_psychic_pulse"
+  },
+  {
+    "id": 495487721,
+    "class_name": "citadel_weapon_wrecker_set",
+    "name": "The Butcher's Hand"
+  },
+  {
+    "id": 2697859853,
+    "class_name": "ability_melee_wrecker",
+    "name": "Melee"
+  },
+  {
+    "id": 4062064977,
+    "class_name": "ability_wrecking_ball",
+    "name": "Wrecking Ball"
+  },
+  {
+    "id": 208809857,
+    "class_name": "ability_wrecker_salvage",
+    "name": "Consume"
+  },
+  {
+    "id": 3422822440,
+    "class_name": "ability_scrap_blast",
+    "name": "Bio Blast"
+  },
+  {
+    "id": 100068731,
+    "class_name": "ability_wrecker_ultimate",
+    "name": "Magnetic Flux"
+  },
+  {
+    "id": 2493171901,
+    "class_name": "ability_wrecker_teleport",
+    "name": "Astral Walk"
+  },
+  {
+    "id": 3426178920,
+    "class_name": "citadel_ability_wrecker_garbage_suck",
+    "name": "Overload"
+  },
+  {
+    "id": 2153275594,
+    "class_name": "citadel_ability_wrecker_bouldergrenade",
+    "name": "Wrecking Ball"
+  },
+  {
+    "id": 440716503,
+    "class_name": "citadel_weapon_yamato_set",
+    "name": "Sister's Lament"
+  },
+  {
+    "id": 2725537392,
+    "class_name": "citadel_weapon_yamato_alt",
+    "name": "Sister's Lament"
+  },
+  {
+    "id": 3334760137,
+    "class_name": "ability_melee_yamato",
+    "name": "Melee"
+  },
+  {
+    "id": 3255651252,
+    "class_name": "citadel_ability_power_slash",
+    "name": "Power Slash"
+  },
+  {
+    "id": 2566573207,
+    "class_name": "citadel_ability_flying_strike",
+    "name": "Flying Strike"
+  },
+  {
+    "id": 2366960452,
+    "class_name": "citadel_ability_healing_slash",
+    "name": "Crimson Slash"
+  },
+  {
+    "id": 3319782965,
+    "class_name": "citadel_ability_infinity_slash",
+    "name": "Shadow Transformation"
+  },
+  {
+    "id": 988091080,
+    "class_name": "citadel_weapon_viper_set",
+    "name": "The Rattler"
+  },
+  {
+    "id": 1015591692,
+    "class_name": "ability_melee_viper",
+    "name": "Melee"
+  },
+  {
+    "id": 1322882622,
+    "class_name": "ability_viper_hookdagger",
+    "name": "Hook Blade"
+  },
+  {
+    "id": 1469918191,
+    "class_name": "ability_viper_snakedash",
+    "name": "Slither"
+  },
+  {
+    "id": 3428732129,
+    "class_name": "ability_viper_venom",
+    "name": "Lethal Venom"
+  },
+  {
+    "id": 2052252881,
+    "class_name": "ability_viper_ult",
+    "name": "Petrify"
+  },
+  {
+    "id": 645773760,
+    "class_name": "ability_viper_debuffdagger",
+    "name": "Screwjab Dagger"
+  },
+  {
+    "id": 1594727071,
+    "class_name": "ability_viper_petrifybola",
+    "name": "Petrifying Bola"
+  },
+  {
+    "id": 2207852489,
+    "class_name": "citadel_weapon_vandal_set",
+    "name": "citadel_weapon_vandal_set"
+  },
+  {
+    "id": 2067539397,
+    "class_name": "ability_melee_vandal",
+    "name": "ability_melee_vandal"
+  },
+  {
+    "id": 1288133032,
+    "class_name": "citadel_ability_vandal_surge",
+    "name": "citadel_ability_vandal_surge"
+  },
+  {
+    "id": 2833514487,
+    "class_name": "ability_vandal_pillar",
+    "name": "ability_vandal_pillar"
+  },
+  {
+    "id": 371372145,
+    "class_name": "ability_haunt",
+    "name": "ability_haunt"
+  },
+  {
+    "id": 916959628,
+    "class_name": "citadel_ability_vandal_overflow",
+    "name": "citadel_ability_vandal_overflow"
+  },
+  {
+    "id": 2014234803,
+    "class_name": "citadel_weapon_magician_set",
+    "name": "The Prestige"
+  },
+  {
+    "id": 3610020756,
+    "class_name": "ability_melee_magician",
+    "name": "Melee"
+  },
+  {
+    "id": 3156905386,
+    "class_name": "ability_magician_magicbolt",
+    "name": "Vexing Bolt"
+  },
+  {
+    "id": 3706135393,
+    "class_name": "citadel_ability_magewalk",
+    "name": "Misdirection"
+  },
+  {
+    "id": 994831172,
+    "class_name": "ability_magician_animalcurse",
+    "name": "Rabbit Hex"
+  },
+  {
+    "id": 2524015798,
+    "class_name": "ability_magician_shadowclone",
+    "name": "The Great Homonculus!"
+  },
+  {
+    "id": 12456023,
+    "class_name": "ability_magician_cloneturret",
+    "name": "Spectral Assistant"
+  },
+  {
+    "id": 1410779535,
+    "class_name": "ability_magician_stage",
+    "name": "Captive Audience"
+  },
+  {
+    "id": 3113315799,
+    "class_name": "ability_magician_bigbolt",
+    "name": "Grand Finale!"
+  },
+  {
+    "id": 895140205,
+    "class_name": "ability_magician_escape",
+    "name": "Escape Artist"
+  },
+  {
+    "id": 191022746,
+    "class_name": "ability_magician_copyult",
+    "name": "Audience Participation"
+  },
+  {
+    "id": 2142213586,
+    "class_name": "ability_magician_animalhexarea",
+    "name": "Rabbit Hex"
+  },
+  {
+    "id": 2390247986,
+    "class_name": "citadel_weapon_trapper_set",
+    "name": "Civil Servant"
+  },
+  {
+    "id": 4050229048,
+    "class_name": "ability_melee_trapper",
+    "name": "ability_melee_trapper"
+  },
+  {
+    "id": 2675680636,
+    "class_name": "ability_trapper_poisonjar",
+    "name": "Bottled Phantasmicide"
+  },
+  {
+    "id": 2876116869,
+    "class_name": "ability_trapper_spiderwave",
+    "name": "Crawling Plague"
+  },
+  {
+    "id": 3322902852,
+    "class_name": "ability_trapper_spidershield",
+    "name": "Pest Barrier"
+  },
+  {
+    "id": 1289909147,
+    "class_name": "ability_trapper_fear",
+    "name": "Spectral Silk"
+  },
+  {
+    "id": 3360792911,
+    "class_name": "ability_trapper_webwall",
+    "name": "Silktrap"
+  },
+  {
+    "id": 1502050181,
+    "class_name": "ability_trapper_fear1",
+    "name": "ability_trapper_fear1"
+  },
+  {
+    "id": 3294175151,
+    "class_name": "citadel_weapon_operative_set",
+    "name": "Umbrella Gun"
+  },
+  {
+    "id": 4210991587,
+    "class_name": "operative_umbrella_maneuver",
+    "name": "Umbrella Maneuver"
+  },
+  {
+    "id": 1773588524,
+    "class_name": "operative_blindside",
+    "name": "Blindside"
+  },
+  {
+    "id": 1101238302,
+    "class_name": "operative_revelation",
+    "name": "Revelation"
+  },
+  {
+    "id": 3318975115,
+    "class_name": "citadel_weapon_gunslinger2_set",
+    "name": "citadel_weapon_gunslinger2_set"
+  },
+  {
+    "id": 2995140627,
+    "class_name": "ability_gunslinger_spreadingfire",
+    "name": "Flame Imp"
+  },
+  {
+    "id": 2610344982,
+    "class_name": "ability_empowerbullet",
+    "name": "Sleight of Hand"
+  },
+  {
+    "id": 1224888294,
+    "class_name": "ability_gunslinger_demon_carbine",
+    "name": "Hellfire Salvo"
+  },
+  {
+    "id": 3248109871,
+    "class_name": "ability_gunslinger_salvo",
+    "name": "Demontrigger Blitz"
+  },
+  {
+    "id": 2839987102,
+    "class_name": "gunslinger_demonMark",
+    "name": "Infernal Brand"
+  },
+  {
+    "id": 2502155040,
+    "class_name": "citadel_weapon_vampirebat_set",
+    "name": "New Money"
+  },
+  {
+    "id": 1372322902,
+    "class_name": "ability_melee_vampirebat",
+    "name": "Melee"
+  },
+  {
+    "id": 1017750200,
+    "class_name": "ability_vampirebat_doubledagger",
+    "name": "Double Dagger"
+  },
+  {
+    "id": 2398133749,
+    "class_name": "ability_vampirebat_batblink",
+    "name": "Sanguine Retreat"
+  },
+  {
+    "id": 1233782561,
+    "class_name": "ability_vampirebat_lovebites",
+    "name": "Love Bites"
+  },
+  {
+    "id": 3379486147,
+    "class_name": "ability_vampirebat_batswarm",
+    "name": "Nox Nostra"
+  },
+  {
+    "id": 193508101,
+    "class_name": "ability_vampirebat_steallife",
+    "name": "Rake"
+  },
+  {
+    "id": 57866690,
+    "class_name": "citadel_weapon_vampirebat_set2",
+    "name": "New Money"
+  },
+  {
+    "id": 1590129566,
+    "class_name": "citadel_weapon_boho_set",
+    "name": "citadel_weapon_boho_set"
+  },
+  {
+    "id": 1318429798,
+    "class_name": "ability_melee_boho",
+    "name": "ability_melee_boho"
+  },
+  {
+    "id": 483227074,
+    "class_name": "ability_boho_ability01",
+    "name": "ability_boho_ability01"
+  },
+  {
+    "id": 3793541808,
+    "class_name": "ability_boho_ability02",
+    "name": "ability_boho_ability02"
+  },
+  {
+    "id": 370209602,
+    "class_name": "ability_boho_damageshare",
+    "name": "Intertwine"
+  },
+  {
+    "id": 2000761890,
+    "class_name": "ability_boho_bouncyprojectile",
+    "name": "Skipshot"
+  },
+  {
+    "id": 3962304265,
+    "class_name": "ability_boho_doublehit",
+    "name": "Swish"
+  },
+  {
+    "id": 759370291,
+    "class_name": "ability_boho_channeltether",
+    "name": "ability_boho_channeltether"
+  },
+  {
+    "id": 1761919638,
+    "class_name": "citadel_weapon_swan_set",
+    "name": "citadel_weapon_swan_set"
+  },
+  {
+    "id": 2605250528,
+    "class_name": "ability_melee_swan",
+    "name": "ability_melee_swan"
+  },
+  {
+    "id": 2619369142,
+    "class_name": "ability_swan_featherboomerang",
+    "name": "ability_swan_featherboomerang"
+  },
+  {
+    "id": 682591488,
+    "class_name": "ability_swan_leap",
+    "name": "Jeté"
+  },
+  {
+    "id": 1418303954,
+    "class_name": "ability_swan_acrobat",
+    "name": "Acrobat"
+  },
+  {
+    "id": 1048488396,
+    "class_name": "ability_swan_ult",
+    "name": "ability_swan_ult"
+  },
+  {
+    "id": 3977811669,
+    "class_name": "citadel_weapon_skyrunner_set",
+    "name": "citadel_weapon_skyrunner_set"
+  },
+  {
+    "id": 1274698030,
+    "class_name": "ability_melee_skyrunner",
+    "name": "ability_melee_skyrunner"
+  },
+  {
+    "id": 228680142,
+    "class_name": "ability_skyrunner_flakshot",
+    "name": "Flakshot"
+  },
+  {
+    "id": 3449758496,
+    "class_name": "ability_skyrunner_magic_beam",
+    "name": "ability_skyrunner_magic_beam"
+  },
+  {
+    "id": 201562678,
+    "class_name": "ability_skyrunner_swingline",
+    "name": "Lifethread"
+  },
+  {
+    "id": 425769687,
+    "class_name": "ability_skyrunner_ult",
+    "name": "ability_skyrunner_ult"
+  },
+  {
+    "id": 2330506722,
+    "class_name": "citadel_weapon_skyrunner_alt",
+    "name": "citadel_weapon_skyrunner_alt"
+  },
+  {
+    "id": 581038282,
+    "class_name": "citadel_weapon_graf_set",
+    "name": "citadel_weapon_graf_set"
+  },
+  {
+    "id": 2614530871,
+    "class_name": "ability_melee_graf",
+    "name": "ability_melee_graf"
+  },
+  {
+    "id": 2627122290,
+    "class_name": "ability_graf_ability01",
+    "name": "ability_graf_ability01"
+  },
+  {
+    "id": 4197612718,
+    "class_name": "ability_graf_ability02",
+    "name": "ability_graf_ability02"
+  },
+  {
+    "id": 2949458312,
+    "class_name": "ability_graf_ability03",
+    "name": "ability_graf_ability03"
+  },
+  {
+    "id": 2561043068,
+    "class_name": "ability_graf_ult",
+    "name": "ability_graf_ult"
+  },
+  {
+    "id": 3877402249,
+    "class_name": "citadel_weapon_fortuna_set",
+    "name": "citadel_weapon_fortuna_set"
+  },
+  {
+    "id": 1388731643,
+    "class_name": "ability_melee_fortuna",
+    "name": "ability_melee_fortuna"
+  },
+  {
+    "id": 309803113,
+    "class_name": "ability_fortuna_ability01",
+    "name": "ability_fortuna_ability01"
+  },
+  {
+    "id": 3803152704,
+    "class_name": "ability_fortuna_ability02",
+    "name": "ability_fortuna_ability02"
+  },
+  {
+    "id": 620778714,
+    "class_name": "ability_fortuna_ability03",
+    "name": "ability_fortuna_ability03"
+  },
+  {
+    "id": 3632058121,
+    "class_name": "ability_fortuna_ult",
+    "name": "ability_fortuna_ult"
+  },
+  {
+    "id": 4048744580,
+    "class_name": "citadel_weapon_frank_set",
+    "name": "Memento Mori"
+  },
+  {
+    "id": 3745177128,
+    "class_name": "ability_melee_frank",
+    "name": "Melee"
+  },
+  {
+    "id": 2961882974,
+    "class_name": "ability_frank_shocktarget",
+    "name": "Pain Battery"
+  },
+  {
+    "id": 3727084744,
+    "class_name": "ability_frank_selfzap",
+    "name": "Jumpstart"
+  },
+  {
+    "id": 1472593493,
+    "class_name": "ability_frank_painaura",
+    "name": "Aura of Suffering"
+  },
+  {
+    "id": 3493884851,
+    "class_name": "ability_frank_revive",
+    "name": "Shocking Reanimation"
+  },
+  {
+    "id": 2043074967,
+    "class_name": "ability_frank_shocktarget2",
+    "name": "Pain Battery"
+  },
+  {
+    "id": 2079380905,
+    "class_name": "citadel_weapon_frank_set2",
+    "name": "Memento Mori"
+  },
+  {
+    "id": 353851685,
+    "class_name": "citadel_weapon_bookworm_set",
+    "name": "Chapter's End"
+  },
+  {
+    "id": 3850113264,
+    "class_name": "ability_melee_bookworm",
+    "name": "Melee"
+  },
+  {
+    "id": 604448162,
+    "class_name": "ability_bookworm_dragonfire",
+    "name": "Conjure Dragon"
+  },
+  {
+    "id": 3054993162,
+    "class_name": "ability_bookworm_aoemagic",
+    "name": "Captivating Read"
+  },
+  {
+    "id": 3553292912,
+    "class_name": "ability_bookworm_knightbarrier",
+    "name": "Defend and Fight!"
+  },
+  {
+    "id": 1841901343,
+    "class_name": "ability_bookworm_knightcharge",
+    "name": "Rallying Charge"
+  },
+  {
+    "id": 4260448939,
+    "class_name": "citadel_weapon_bookworm_set2",
+    "name": "Chapter's End"
+  },
+  {
+    "id": 3409956698,
+    "class_name": "citadel_weapon_doorman_set",
+    "name": "Service With A Smile"
+  },
+  {
+    "id": 4144812912,
+    "class_name": "citadel_weapon_doorman_alt",
+    "name": "Service With A Smile"
+  },
+  {
+    "id": 2903891855,
+    "class_name": "ability_melee_doorman",
+    "name": "Melee"
+  },
+  {
+    "id": 109766091,
+    "class_name": "ability_doorman_doorway",
+    "name": "Doorway"
+  },
+  {
+    "id": 1719512318,
+    "class_name": "ability_doorman_luggage_cart",
+    "name": "Luggage Cart"
+  },
+  {
+    "id": 103496908,
+    "class_name": "ability_doorman_bomb",
+    "name": "Call Bell"
+  },
+  {
+    "id": 1703045691,
+    "class_name": "ability_doorman_hotel",
+    "name": "Hotel Guest"
+  },
+  {
+    "id": 3395613043,
+    "class_name": "citadel_weapon_punkgoat_set",
+    "name": "Biquette"
+  },
+  {
+    "id": 3023323617,
+    "class_name": "ability_melee_punkgoat",
+    "name": "Melee"
+  },
+  {
+    "id": 3296031213,
+    "class_name": "ability_punkgoat_blasted",
+    "name": "Blasted"
+  },
+  {
+    "id": 3762861984,
+    "class_name": "ability_punkgoat_tether",
+    "name": "Chain Gang"
+  },
+  {
+    "id": 1792773251,
+    "class_name": "ability_punkgoat_goatflip",
+    "name": "Rising Ram"
+  },
+  {
+    "id": 1841661392,
+    "class_name": "ability_punkgoat_ult",
+    "name": "Bashdown"
+  },
+  {
+    "id": 160782216,
+    "class_name": "citadel_weapon_drifter_set",
+    "name": "Crimson Grasp"
+  },
+  {
+    "id": 2201766712,
+    "class_name": "citadel_weapon_drifter_alt",
+    "name": "Drifter Alt Weapon"
+  },
+  {
+    "id": 1184405291,
+    "class_name": "ability_melee_drifter",
+    "name": "Melee"
+  },
+  {
+    "id": 3120550633,
+    "class_name": "drifter_blood_blast",
+    "name": "Rend"
+  },
+  {
+    "id": 1264175662,
+    "class_name": "drifter_shadow_mark",
+    "name": "Stalker's Mark"
+  },
+  {
+    "id": 1033019133,
+    "class_name": "ability_drifter_hunger",
+    "name": "Bloodscent"
+  },
+  {
+    "id": 1168182161,
+    "class_name": "drifter_darkness",
+    "name": "Eternal Night"
+  },
+  {
+    "id": 4049908402,
+    "class_name": "armor_upgrade_t1",
+    "name": "armor_upgrade_t1"
+  },
+  {
+    "id": 2484189167,
+    "class_name": "armor_upgrade_t2",
+    "name": "armor_upgrade_t2"
+  },
+  {
+    "id": 3162468251,
+    "class_name": "armor_upgrade_t3",
+    "name": "armor_upgrade_t3"
+  },
+  {
+    "id": 2366847482,
+    "class_name": "armor_upgrade_t4",
+    "name": "armor_upgrade_t4"
+  },
+  {
+    "id": 1851590806,
+    "class_name": "armor_upgrade_t5",
+    "name": "armor_upgrade_t5"
+  },
+  {
+    "id": 10546756,
+    "class_name": "weapon_upgrade_t1",
+    "name": "weapon_upgrade_t1"
+  },
+  {
+    "id": 1620942471,
+    "class_name": "weapon_upgrade_t2",
+    "name": "weapon_upgrade_t2"
+  },
+  {
+    "id": 506109244,
+    "class_name": "weapon_upgrade_t3",
+    "name": "weapon_upgrade_t3"
+  },
+  {
+    "id": 361904051,
+    "class_name": "weapon_upgrade_t4",
+    "name": "weapon_upgrade_t4"
+  },
+  {
+    "id": 349524508,
+    "class_name": "weapon_upgrade_t5",
+    "name": "weapon_upgrade_t5"
+  },
+  {
+    "id": 1239500246,
+    "class_name": "tech_upgrade_t1",
+    "name": "tech_upgrade_t1"
+  },
+  {
+    "id": 2938348616,
+    "class_name": "tech_upgrade_t2",
+    "name": "tech_upgrade_t2"
+  },
+  {
+    "id": 562994648,
+    "class_name": "tech_upgrade_t3",
+    "name": "tech_upgrade_t3"
+  },
+  {
+    "id": 2729670681,
+    "class_name": "tech_upgrade_t4",
+    "name": "tech_upgrade_t4"
+  },
+  {
+    "id": 4121208447,
+    "class_name": "tech_upgrade_t5",
+    "name": "tech_upgrade_t5"
+  },
+  {
+    "id": 264187235,
+    "class_name": "item_projectile_test_01",
+    "name": "item_projectile_test_01"
+  },
+  {
+    "id": 1014700451,
+    "class_name": "item_projectile_test_02",
+    "name": "item_projectile_test_02"
+  },
+  {
+    "id": 2414315232,
+    "class_name": "item_projectile_test_03",
+    "name": "item_projectile_test_03"
+  },
+  {
+    "id": 3418358054,
+    "class_name": "item_projectile_test_04",
+    "name": "item_projectile_test_04"
+  },
+  {
+    "id": 3130661899,
+    "class_name": "item_projectile_test_05",
+    "name": "item_projectile_test_05"
+  },
+  {
+    "id": 3744513303,
+    "class_name": "item_projectile_test_06",
+    "name": "item_projectile_test_06"
+  },
+  {
+    "id": 1548066885,
+    "class_name": "upgrade_clip_size",
+    "name": "Extended Magazine"
+  },
+  {
+    "id": 1009965641,
+    "class_name": "upgrade_non_player_bonus",
+    "name": "Monster Rounds"
+  },
+  {
+    "id": 709540378,
+    "class_name": "upgrade_non_player_bonus_sacrifice",
+    "name": "Cultist Sacrifice"
+  },
+  {
+    "id": 1248737459,
+    "class_name": "upgrade_ammo_scavenger",
+    "name": "Ammo Scavenger"
+  },
+  {
+    "id": 3535785353,
+    "class_name": "upgrade_clip_size_fixed",
+    "name": "upgrade_clip_size_fixed"
+  },
+  {
+    "id": 2861048274,
+    "class_name": "upgrade_clip_size_fixed_t3",
+    "name": "upgrade_clip_size_fixed_t3"
+  },
+  {
+    "id": 811521119,
+    "class_name": "upgrade_chain_lightning",
+    "name": "Tesla Bullets"
+  },
+  {
+    "id": 710436191,
+    "class_name": "upgrade_capacitor",
+    "name": "Capacitor"
+  },
+  {
+    "id": 3316018900,
+    "class_name": "upgrade_galvanic_storm",
+    "name": "upgrade_galvanic_storm"
+  },
+  {
+    "id": 2678489038,
+    "class_name": "upgrade_hollow_point_rounds",
+    "name": "Hollow Point"
+  },
+  {
+    "id": 2064029594,
+    "class_name": "upgrade_pristine_emblem",
+    "name": "Opening Rounds"
+  },
+  {
+    "id": 1544322593,
+    "class_name": "upgrade_stabilizer",
+    "name": "upgrade_stabilizer"
+  },
+  {
+    "id": 3077079169,
+    "class_name": "upgrade_high_velocity_mag",
+    "name": "High-Velocity Rounds"
+  },
+  {
+    "id": 1437614329,
+    "class_name": "upgrade_lifestrike_gauntlets",
+    "name": "Melee Lifesteal"
+  },
+  {
+    "id": 4204808176,
+    "class_name": "upgrade_melee_rebuttal",
+    "name": "Rebuttal"
+  },
+  {
+    "id": 1414025773,
+    "class_name": "upgrade_counterspell",
+    "name": "Counterspell"
+  },
+  {
+    "id": 3791587546,
+    "class_name": "upgrade_weighted_shots",
+    "name": "Weighted Shots"
+  },
+  {
+    "id": 4238249888,
+    "class_name": "upgrade_ancient_shield",
+    "name": "Ancient Shield"
+  },
+  {
+    "id": 1342610602,
+    "class_name": "upgrade_close_range",
+    "name": "Close Quarters"
+  },
+  {
+    "id": 3331811235,
+    "class_name": "upgrade_long_range",
+    "name": "Long Range"
+  },
+  {
+    "id": 393974127,
+    "class_name": "upgrade_slowing_bullets",
+    "name": "Slowing Bullets"
+  },
+  {
+    "id": 2037039379,
+    "class_name": "upgrade_inhibitor",
+    "name": "Inhibitor"
+  },
+  {
+    "id": 1889400890,
+    "class_name": "upgrade_small_attack_speed",
+    "name": "upgrade_small_attack_speed"
+  },
+  {
+    "id": 1144549437,
+    "class_name": "upgrade_tech_defense_shredders",
+    "name": "Spirit Shredder Bullets"
+  },
+  {
+    "id": 1109351073,
+    "class_name": "upgrade_attack_speed_1",
+    "name": "upgrade_attack_speed_1"
+  },
+  {
+    "id": 1100809516,
+    "class_name": "upgrade_nearby_enemy_boost",
+    "name": "upgrade_nearby_enemy_boost"
+  },
+  {
+    "id": 2108215830,
+    "class_name": "upgrade_dps_aura",
+    "name": "Heroic Aura"
+  },
+  {
+    "id": 1031828968,
+    "class_name": "upgrade_armor_reduction_debuff",
+    "name": "upgrade_armor_reduction_debuff"
+  },
+  {
+    "id": 775925321,
+    "class_name": "upgrade_weapon_detention_ammo",
+    "name": "upgrade_weapon_detention_ammo"
+  },
+  {
+    "id": 2854211216,
+    "class_name": "upgrade_height_advantage",
+    "name": "upgrade_height_advantage"
+  },
+  {
+    "id": 619484391,
+    "class_name": "upgrade_targeted_silence",
+    "name": "Silence Wave"
+  },
+  {
+    "id": 3927044172,
+    "class_name": "upgrade_haunting_scream",
+    "name": "Haunting Scream"
+  },
+  {
+    "id": 1113837674,
+    "class_name": "upgrade_proc_silence",
+    "name": "Silencer"
+  },
+  {
+    "id": 3133167885,
+    "class_name": "upgrade_silencer",
+    "name": "Silencer"
+  },
+  {
+    "id": 1503218332,
+    "class_name": "upgrade_proc_disarm",
+    "name": "upgrade_proc_disarm"
+  },
+  {
+    "id": 1414319208,
+    "class_name": "upgrade_berserker",
+    "name": "Berserker"
+  },
+  {
+    "id": 339443430,
+    "class_name": "upgrade_fervor",
+    "name": "Frenzy"
+  },
+  {
+    "id": 1282141666,
+    "class_name": "upgrade_siphon_bullets",
+    "name": "Siphon Bullets"
+  },
+  {
+    "id": 2010028405,
+    "class_name": "upgrade_headshot_booster",
+    "name": "Headshot Booster"
+  },
+  {
+    "id": 1770441818,
+    "class_name": "upgrade_headshot_booster2",
+    "name": "Weakening Headshot"
+  },
+  {
+    "id": 2152872419,
+    "class_name": "upgrade_sharpshooter",
+    "name": "Sharpshooter"
+  },
+  {
+    "id": 4053935515,
+    "class_name": "upgrade_headhunter",
+    "name": "Headhunter"
+  },
+  {
+    "id": 4075861416,
+    "class_name": "upgrade_spellslinger_headshots",
+    "name": "Spirit Rend"
+  },
+  {
+    "id": 3884003354,
+    "class_name": "upgrade_banshee_slugs",
+    "name": "Crippling Headshot"
+  },
+  {
+    "id": 184951197,
+    "class_name": "upgrade_proc_tech_damage",
+    "name": "upgrade_proc_tech_damage"
+  },
+  {
+    "id": 395867183,
+    "class_name": "upgrade_crackshot",
+    "name": "Mystic Shot"
+  },
+  {
+    "id": 1396247347,
+    "class_name": "upgrade_critshot",
+    "name": "Lucky Shot"
+  },
+  {
+    "id": 2095565695,
+    "class_name": "upgrade_close_quarter_combat",
+    "name": "Point Blank"
+  },
+  {
+    "id": 4284855775,
+    "class_name": "upgrade_clip_size_2",
+    "name": "upgrade_clip_size_2"
+  },
+  {
+    "id": 3449296332,
+    "class_name": "upgrade_clip_size_3",
+    "name": "upgrade_clip_size_3"
+  },
+  {
+    "id": 3696726732,
+    "class_name": "upgrade_toxic_bullets",
+    "name": "Toxic Bullets"
+  },
+  {
+    "id": 3791295884,
+    "class_name": "upgrade_attack_speed_2",
+    "name": "upgrade_attack_speed_2"
+  },
+  {
+    "id": 4190165534,
+    "class_name": "upgrade_drum_magazine",
+    "name": "upgrade_drum_magazine"
+  },
+  {
+    "id": 2480592370,
+    "class_name": "upgrade_ricochet",
+    "name": "Ricochet"
+  },
+  {
+    "id": 4149380528,
+    "class_name": "upgrade_apex_combat",
+    "name": "Apex Combat"
+  },
+  {
+    "id": 3633614685,
+    "class_name": "upgrade_health",
+    "name": "Extra Health"
+  },
+  {
+    "id": 2858617477,
+    "class_name": "upgrade_health_2",
+    "name": "Toughness"
+  },
+  {
+    "id": 1448361452,
+    "class_name": "upgrade_toughness_3",
+    "name": "upgrade_toughness_3"
+  },
+  {
+    "id": 3713423303,
+    "class_name": "upgrade_bullet_armor",
+    "name": "Bullet Armor"
+  },
+  {
+    "id": 223594321,
+    "class_name": "upgrade_tech_armor",
+    "name": "Spirit Armor"
+  },
+  {
+    "id": 1575167590,
+    "class_name": "upgrade_health_regen_1",
+    "name": "upgrade_health_regen_1"
+  },
+  {
+    "id": 499683006,
+    "class_name": "upgrade_vampire",
+    "name": "Bullet Lifesteal"
+  },
+  {
+    "id": 790496977,
+    "class_name": "upgrade_double_jump",
+    "name": "upgrade_double_jump"
+  },
+  {
+    "id": 3321728133,
+    "class_name": "upgrade_health_regen_aura",
+    "name": "upgrade_health_regen_aura"
+  },
+  {
+    "id": 4066757307,
+    "class_name": "upgrade_combo_breaker",
+    "name": "upgrade_combo_breaker"
+  },
+  {
+    "id": 1047818222,
+    "class_name": "upgrade_debuff_reducer",
+    "name": "Debuff Reducer"
+  },
+  {
+    "id": 3731635960,
+    "class_name": "upgrade_reduce_debuff_duration",
+    "name": "Dispel Magic"
+  },
+  {
+    "id": 1825391146,
+    "class_name": "upgrade_high_impact_armor",
+    "name": "upgrade_high_impact_armor"
+  },
+  {
+    "id": 1711193274,
+    "class_name": "upgrade_slow_immunity",
+    "name": "upgrade_slow_immunity"
+  },
+  {
+    "id": 2887128033,
+    "class_name": "upgrade_bullet_armor_2",
+    "name": "upgrade_bullet_armor_2"
+  },
+  {
+    "id": 471704443,
+    "class_name": "upgrade_weapon_power_and_health_drain",
+    "name": "upgrade_weapon_power_and_health_drain"
+  },
+  {
+    "id": 1319649491,
+    "class_name": "upgrade_active_bullet_shield",
+    "name": "upgrade_active_bullet_shield"
+  },
+  {
+    "id": 4168302000,
+    "class_name": "upgrade_ablative_coat",
+    "name": "upgrade_ablative_coat"
+  },
+  {
+    "id": 2163598980,
+    "class_name": "upgrade_tech_purge",
+    "name": "Spirit Resilience"
+  },
+  {
+    "id": 3140772621,
+    "class_name": "upgrade_improved_bullet_armor",
+    "name": "Bullet Resilience"
+  },
+  {
+    "id": 1378931225,
+    "class_name": "upgrade_metal_skin",
+    "name": "Metal Skin"
+  },
+  {
+    "id": 2566692615,
+    "class_name": "upgrade_healing_booster",
+    "name": "Healing Booster"
+  },
+  {
+    "id": 3585132399,
+    "class_name": "upgrade_chonky",
+    "name": "Fortitude"
+  },
+  {
+    "id": 865846625,
+    "class_name": "upgrade_damage_recycler",
+    "name": "Leech"
+  },
+  {
+    "id": 1298427343,
+    "class_name": "upgrade_bullet_damage_reduction_aura",
+    "name": "upgrade_bullet_damage_reduction_aura"
+  },
+  {
+    "id": 3399065363,
+    "class_name": "upgrade_sprint_booster",
+    "name": "Sprint Boots"
+  },
+  {
+    "id": 3074274290,
+    "class_name": "upgrade_trophy_collector",
+    "name": "Trophy Collector"
+  },
+  {
+    "id": 2447176615,
+    "class_name": "upgrade_cardio_calibrator",
+    "name": "Enduring Speed"
+  },
+  {
+    "id": 334300056,
+    "class_name": "upgrade_superior_stamina",
+    "name": "Stamina Mastery"
+  },
+  {
+    "id": 564937160,
+    "class_name": "upgrade_aerial_supremacy",
+    "name": "Aerial Supremacy"
+  },
+  {
+    "id": 668299740,
+    "class_name": "upgrade_rapid_rounds",
+    "name": "Rapid Rounds"
+  },
+  {
+    "id": 4139877411,
+    "class_name": "upgrade_improved_stamina",
+    "name": "Extra Stamina"
+  },
+  {
+    "id": 2481177645,
+    "class_name": "upgrade_bullet_armor_reduction_aura",
+    "name": "Hunter's Aura"
+  },
+  {
+    "id": 1962740586,
+    "class_name": "upgrade_camouflage",
+    "name": "upgrade_camouflage"
+  },
+  {
+    "id": 3038950099,
+    "class_name": "upgrade_regenerative_armor",
+    "name": "upgrade_regenerative_armor"
+  },
+  {
+    "id": 805079544,
+    "class_name": "upgrade_weapon_shielding",
+    "name": "Weapon Shielding"
+  },
+  {
+    "id": 112198670,
+    "class_name": "upgrade_spirit_bubble",
+    "name": "Spirit Shielding"
+  },
+  {
+    "id": 1235347618,
+    "class_name": "upgrade_regenerating_bullet_shield",
+    "name": "Battle Vest"
+  },
+  {
+    "id": 3970837787,
+    "class_name": "upgrade_magic_shield",
+    "name": "Enchanter's Emblem"
+  },
+  {
+    "id": 968099481,
+    "class_name": "upgrade_improved_spirit",
+    "name": "Extra Spirit"
+  },
+  {
+    "id": 1439347412,
+    "class_name": "upgrade_mystic_regeneration",
+    "name": "Mystic Regeneration"
+  },
+  {
+    "id": 7409189,
+    "class_name": "upgrade_soaring_spirit",
+    "name": "Improved Spirit"
+  },
+  {
+    "id": 2226497419,
+    "class_name": "upgrade_tech_overflow",
+    "name": "Spiritual Overflow"
+  },
+  {
+    "id": 3361075077,
+    "class_name": "upgrade_return_fire",
+    "name": "Return Fire"
+  },
+  {
+    "id": 1193964439,
+    "class_name": "upgrade_tech_range",
+    "name": "Greater Expansion"
+  },
+  {
+    "id": 754480263,
+    "class_name": "upgrade_magic_reach",
+    "name": "Mystic Expansion"
+  },
+  {
+    "id": 3776945997,
+    "class_name": "upgrade_extra_charge",
+    "name": "Extra Charge"
+  },
+  {
+    "id": 876563814,
+    "class_name": "upgrade_health_stealing_magic",
+    "name": "Spirit Lifesteal"
+  },
+  {
+    "id": 2645639421,
+    "class_name": "upgrade_disarm",
+    "name": "upgrade_disarm"
+  },
+  {
+    "id": 2971868509,
+    "class_name": "upgrade_bullet_resist_shredder",
+    "name": "Bullet Resist Shredder"
+  },
+  {
+    "id": 3577481646,
+    "class_name": "upgrade_mystic_reverb",
+    "name": "Mystic Reverb"
+  },
+  {
+    "id": 1998374645,
+    "class_name": "upgrade_magic_burst",
+    "name": "Mystic Burst"
+  },
+  {
+    "id": 2121044373,
+    "class_name": "upgrade_magic_shock",
+    "name": "Tankbuster"
+  },
+  {
+    "id": 1052584266,
+    "class_name": "upgrade_arcane_medallion",
+    "name": "upgrade_arcane_medallion"
+  },
+  {
+    "id": 2081037738,
+    "class_name": "upgrade_magic_vulnerability",
+    "name": "Mystic Vulnerability"
+  },
+  {
+    "id": 2603935618,
+    "class_name": "upgrade_healbane",
+    "name": "Healbane"
+  },
+  {
+    "id": 1102081447,
+    "class_name": "upgrade_magic_slow",
+    "name": "Mystic Slow"
+  },
+  {
+    "id": 3005970438,
+    "class_name": "upgrade_escalating_exposure",
+    "name": "Escalating Exposure"
+  },
+  {
+    "id": 787198704,
+    "class_name": "upgrade_rapid_recharge",
+    "name": "Rapid Recharge"
+  },
+  {
+    "id": 424779525,
+    "class_name": "upgrade_omnicharge_pendant",
+    "name": "Omnicharge Signet"
+  },
+  {
+    "id": 380806748,
+    "class_name": "upgrade_magic_tempo",
+    "name": "Compress Cooldown"
+  },
+  {
+    "id": 3261353684,
+    "class_name": "upgrade_cooldown_reduction",
+    "name": "Superior Cooldown"
+  },
+  {
+    "id": 915014646,
+    "class_name": "upgrade_transcendent_cooldown",
+    "name": "Transcendent Cooldown"
+  },
+  {
+    "id": 3893702034,
+    "class_name": "upgrade_timeless_emblem",
+    "name": "Timeless Emblem"
+  },
+  {
+    "id": 3456645009,
+    "class_name": "upgrade_shadow_step",
+    "name": "Shadow Step"
+  },
+  {
+    "id": 3789823638,
+    "class_name": "upgrade_duration_extender",
+    "name": "upgrade_duration_extender"
+  },
+  {
+    "id": 3013879715,
+    "class_name": "upgrade_slowing_tech",
+    "name": "upgrade_slowing_tech"
+  },
+  {
+    "id": 1813726886,
+    "class_name": "upgrade_containment",
+    "name": "Slowing Hex"
+  },
+  {
+    "id": 1219329868,
+    "class_name": "upgrade_spirit_sap",
+    "name": "Spirit Sap"
+  },
+  {
+    "id": 2142980412,
+    "class_name": "upgrade_focus_lens",
+    "name": "Focus Lens"
+  },
+  {
+    "id": 2922054143,
+    "class_name": "upgrade_withering_whip",
+    "name": "Rusted Barrel"
+  },
+  {
+    "id": 2061878743,
+    "class_name": "upgrade_greater_withering_whip",
+    "name": "Disarming Hex"
+  },
+  {
+    "id": 1804594021,
+    "class_name": "upgrade_rescue_beam",
+    "name": "Rescue Beam"
+  },
+  {
+    "id": 2329546537,
+    "class_name": "upgrade_personal_rejuvenator",
+    "name": "Rebirth"
+  },
+  {
+    "id": 4003032160,
+    "class_name": "upgrade_rebirth",
+    "name": "Soul Rebirth"
+  },
+  {
+    "id": 1993213427,
+    "class_name": "upgrade_long_range_slowing_tech",
+    "name": "upgrade_long_range_slowing_tech"
+  },
+  {
+    "id": 3064545951,
+    "class_name": "upgrade_full_spectrum",
+    "name": "upgrade_full_spectrum"
+  },
+  {
+    "id": 4249800570,
+    "class_name": "upgrade_tech_cleave",
+    "name": "upgrade_tech_cleave"
+  },
+  {
+    "id": 1288322878,
+    "class_name": "upgrade_bonus_ability_charge_3",
+    "name": "upgrade_bonus_ability_charge_3"
+  },
+  {
+    "id": 4245766497,
+    "class_name": "upgrade_charge_mastery",
+    "name": "upgrade_charge_mastery"
+  },
+  {
+    "id": 3144988365,
+    "class_name": "upgrade_rupture",
+    "name": "Decay"
+  },
+  {
+    "id": 2417568017,
+    "class_name": "upgrade_discord",
+    "name": "Scourge"
+  },
+  {
+    "id": 776145721,
+    "class_name": "upgrade_aoe_tech_shield",
+    "name": "upgrade_aoe_tech_shield"
+  },
+  {
+    "id": 1254091416,
+    "class_name": "upgrade_target_stun",
+    "name": "Knockdown"
+  },
+  {
+    "id": 1371725689,
+    "class_name": "upgrade_phantom_strike",
+    "name": "Phantom Strike"
+  },
+  {
+    "id": 3270001687,
+    "class_name": "upgrade_warp_stone",
+    "name": "Warp Stone"
+  },
+  {
+    "id": 1152158042,
+    "class_name": "upgrade_aoe_root",
+    "name": "Vortex Web"
+  },
+  {
+    "id": 677738769,
+    "class_name": "upgrade_ability_refresher",
+    "name": "Refresher"
+  },
+  {
+    "id": 630839635,
+    "class_name": "upgrade_ability_power_shard",
+    "name": "Echo Shard"
+  },
+  {
+    "id": 395944548,
+    "class_name": "upgrade_tech_damage_pulse",
+    "name": "Torment Pulse"
+  },
+  {
+    "id": 3361811174,
+    "class_name": "upgrade_cheat_death",
+    "name": "Cheat Death"
+  },
+  {
+    "id": 3276909180,
+    "class_name": "upgrade_reload_speed",
+    "name": "upgrade_reload_speed"
+  },
+  {
+    "id": 2560018361,
+    "class_name": "upgrade_cloaking_device",
+    "name": "upgrade_cloaking_device"
+  },
+  {
+    "id": 1798666702,
+    "class_name": "upgrade_cloaking_device_active",
+    "name": "Shadow Weave"
+  },
+  {
+    "id": 3662153307,
+    "class_name": "upgrade_fire_rate_aura",
+    "name": "upgrade_fire_rate_aura"
+  },
+  {
+    "id": 607292868,
+    "class_name": "upgrade_weapon_overdrive_clip",
+    "name": "upgrade_weapon_overdrive_clip"
+  },
+  {
+    "id": 3830846077,
+    "class_name": "upgrade_rocket_boots",
+    "name": "Majestic Leap - Disabled"
+  },
+  {
+    "id": 600033864,
+    "class_name": "upgrade_rocket_booster",
+    "name": "Majestic Leap"
+  },
+  {
+    "id": 271801138,
+    "class_name": "upgrade_aerial_assault",
+    "name": "upgrade_aerial_assault"
+  },
+  {
+    "id": 2956256701,
+    "class_name": "upgrade_health_nova",
+    "name": "Healing Nova"
+  },
+  {
+    "id": 2059712766,
+    "class_name": "upgrade_restorative_locket",
+    "name": "Restorative Locket"
+  },
+  {
+    "id": 1710079648,
+    "class_name": "upgrade_health_stimpak",
+    "name": "Healing Rite"
+  },
+  {
+    "id": 4121584236,
+    "class_name": "upgrade_shrink_ray",
+    "name": "Shrink Ray"
+  },
+  {
+    "id": 1797283378,
+    "class_name": "upgrade_infuser",
+    "name": "Infuser"
+  },
+  {
+    "id": 857669956,
+    "class_name": "upgrade_guardian_ward",
+    "name": "Guardian Ward"
+  },
+  {
+    "id": 1662311306,
+    "class_name": "upgrade_divine_barrier",
+    "name": "Divine Barrier"
+  },
+  {
+    "id": 937242723,
+    "class_name": "upgrade_aoe_smoke_bomb",
+    "name": "upgrade_aoe_smoke_bomb"
+  },
+  {
+    "id": 1932939246,
+    "class_name": "upgrade_thermal_detonator",
+    "name": "Alchemical Fire"
+  },
+  {
+    "id": 989206714,
+    "class_name": "upgrade_blood_tribute",
+    "name": "Blood Tribute"
+  },
+  {
+    "id": 3403085434,
+    "class_name": "upgrade_fleetfoot_boots",
+    "name": "Fleetfoot"
+  },
+  {
+    "id": 3977876567,
+    "class_name": "upgrade_kinetic_sash",
+    "name": "Kinetic Dash"
+  },
+  {
+    "id": 1150006784,
+    "class_name": "upgrade_arcane_surge",
+    "name": "Arcane Surge"
+  },
+  {
+    "id": 389243496,
+    "class_name": "upgrade_weapon_eater",
+    "name": "upgrade_weapon_eater"
+  },
+  {
+    "id": 315518818,
+    "class_name": "upgrade_weapon_instant_reload",
+    "name": "upgrade_weapon_instant_reload"
+  },
+  {
+    "id": 1947620709,
+    "class_name": "upgrade_tech_defender",
+    "name": "upgrade_tech_defender"
+  },
+  {
+    "id": 3357231760,
+    "class_name": "upgrade_unstoppable",
+    "name": "Unstoppable"
+  },
+  {
+    "id": 2407781327,
+    "class_name": "upgrade_colossus",
+    "name": "Colossus"
+  },
+  {
+    "id": 1976391348,
+    "class_name": "upgrade_cold_front",
+    "name": "Cold Front"
+  },
+  {
+    "id": 3812615317,
+    "class_name": "upgrade_arctic_blast",
+    "name": "Arctic Blast"
+  },
+  {
+    "id": 486220748,
+    "class_name": "upgrade_aoe_silence",
+    "name": "upgrade_aoe_silence"
+  },
+  {
+    "id": 2533252781,
+    "class_name": "upgrade_self_bubble",
+    "name": "Ethereal Shift"
+  },
+  {
+    "id": 385745034,
+    "class_name": "upgrade_stasis_bomb",
+    "name": "upgrade_stasis_bomb"
+  },
+  {
+    "id": 1641353616,
+    "class_name": "upgrade_quarantine",
+    "name": "upgrade_quarantine"
+  },
+  {
+    "id": 2617435668,
+    "class_name": "upgrade_glitch",
+    "name": "Cursed Relic"
+  },
+  {
+    "id": 1959600032,
+    "class_name": "upgrade_imbued_ability",
+    "name": "upgrade_imbued_ability"
+  },
+  {
+    "id": 2951612397,
+    "class_name": "upgrade_arcane_extension",
+    "name": "Duration Extender"
+  },
+  {
+    "id": 2717651715,
+    "class_name": "upgrade_imbued_duration_extender",
+    "name": "Superior Duration"
+  },
+  {
+    "id": 365620721,
+    "class_name": "upgrade_glass_cannon",
+    "name": "Glass Cannon"
+  },
+  {
+    "id": 1409190604,
+    "class_name": "upgrade_fury_trance",
+    "name": "Fury Trance"
+  },
+  {
+    "id": 1055679805,
+    "class_name": "upgrade_surging_power",
+    "name": "Vampiric Burst"
+  },
+  {
+    "id": 481022061,
+    "class_name": "upgrade_mod_disruptor",
+    "name": "upgrade_mod_disruptor"
+  },
+  {
+    "id": 2039312305,
+    "class_name": "upgrade_frenzy",
+    "name": "upgrade_frenzy"
+  },
+  {
+    "id": 253917113,
+    "class_name": "upgrade_burst_fire_actuator",
+    "name": "upgrade_burst_fire_actuator"
+  },
+  {
+    "id": 1252627263,
+    "class_name": "upgrade_boxing_glove",
+    "name": "Lifestrike"
+  },
+  {
+    "id": 465043967,
+    "class_name": "upgrade_acolytes_glove",
+    "name": "Spirit Strike"
+  },
+  {
+    "id": 3190916303,
+    "class_name": "upgrade_spirit_snatch",
+    "name": "Spirit Snatch"
+  },
+  {
+    "id": 26002154,
+    "class_name": "upgrade_melee_charge",
+    "name": "Melee Charge"
+  },
+  {
+    "id": 800008313,
+    "class_name": "upgrade_crushing_fists",
+    "name": "Crushing Fists"
+  },
+  {
+    "id": 3572021243,
+    "class_name": "upgrade_charmed_wraps",
+    "name": "upgrade_charmed_wraps"
+  },
+  {
+    "id": 1326137213,
+    "class_name": "upgrade_belt_fed_magazine",
+    "name": "upgrade_belt_fed_magazine"
+  },
+  {
+    "id": 2820116164,
+    "class_name": "upgrade_diviners_kevlar",
+    "name": "Diviner's Kevlar"
+  },
+  {
+    "id": 2672389724,
+    "class_name": "upgrade_stabilizing_tripod",
+    "name": "upgrade_stabilizing_tripod"
+  },
+  {
+    "id": 2947183272,
+    "class_name": "upgrade_resonant_healing",
+    "name": "Radiant Regeneration"
+  },
+  {
+    "id": 2519598785,
+    "class_name": "upgrade_boundless_spirit",
+    "name": "Boundless Spirit"
+  },
+  {
+    "id": 2739107182,
+    "class_name": "upgrade_burst_fire",
+    "name": "Burst Fire"
+  },
+  {
+    "id": 558396679,
+    "class_name": "upgrade_resilience",
+    "name": "Enduring Spirit"
+  },
+  {
+    "id": 2829638276,
+    "class_name": "upgrade_endurance",
+    "name": "Extra Regen"
+  },
+  {
+    "id": 2985482185,
+    "class_name": "upgrade_magic_clarity",
+    "name": "upgrade_magic_clarity"
+  },
+  {
+    "id": 1292979587,
+    "class_name": "upgrade_magic_storm",
+    "name": "Surge of Power"
+  },
+  {
+    "id": 1925087134,
+    "class_name": "upgrade_suppressor",
+    "name": "Suppressor"
+  },
+  {
+    "id": 84321454,
+    "class_name": "upgrade_quick_silver",
+    "name": "Quicksilver Reload"
+  },
+  {
+    "id": 3919289022,
+    "class_name": "upgrade_ethereal_bullets",
+    "name": "Mercurial Magnum"
+  },
+  {
+    "id": 2717142638,
+    "class_name": "upgrade_arcane_eater",
+    "name": "upgrade_arcane_eater"
+  },
+  {
+    "id": 2574520834,
+    "class_name": "upgrade_predator_precision",
+    "name": "upgrade_predator_precision"
+  },
+  {
+    "id": 2407033488,
+    "class_name": "upgrade_intensifying_clip",
+    "name": "Intensifying Magazine"
+  },
+  {
+    "id": 2463960640,
+    "class_name": "upgrade_reinforcing_casings",
+    "name": "Escalating Resilience"
+  },
+  {
+    "id": 4104549924,
+    "class_name": "upgrade_blitz_bullets",
+    "name": "Swift Striker"
+  },
+  {
+    "id": 865958998,
+    "class_name": "upgrade_veil_walker",
+    "name": "Veil Walker"
+  },
+  {
+    "id": 1644605047,
+    "class_name": "upgrade_vex_barrier",
+    "name": "Reactive Barrier"
+  },
+  {
+    "id": 3862866912,
+    "class_name": "upgrade_medic_bullets",
+    "name": "Restorative Shot"
+  },
+  {
+    "id": 2356412290,
+    "class_name": "upgrade_titan_round",
+    "name": "Titanic Magazine"
+  },
+  {
+    "id": 3647584222,
+    "class_name": "upgrade_split_shot",
+    "name": "Split Shot"
+  },
+  {
+    "id": 381961617,
+    "class_name": "upgrade_active_reload",
+    "name": "Active Reload"
+  },
+  {
+    "id": 2800629741,
+    "class_name": "upgrade_magic_carpet",
+    "name": "Magic Carpet"
+  },
+  {
+    "id": 1200177229,
+    "class_name": "upgrade_spellshield",
+    "name": "Hexafoil Ward"
+  },
+  {
+    "id": 2331566268,
+    "class_name": "upgrade_superacolytes_glove",
+    "name": "Hex-Sealed Knuckles"
+  },
+  {
+    "id": 194116661,
+    "class_name": "upgrade_magic_missile",
+    "name": "Conjure Missiles"
+  },
+  {
+    "id": 138320648,
+    "class_name": "upgrade_heal_on_level",
+    "name": "Patron's Healing"
+  },
+  {
+    "id": 343572757,
+    "class_name": "upgrade_spirit_burn",
+    "name": "Spirit Burn"
+  },
+  {
+    "id": 493591231,
+    "class_name": "upgrade_ultimate_burst",
+    "name": "Lightning Scroll"
+  },
+  {
+    "id": 3913864662,
+    "class_name": "upgrade_corpse_explosion",
+    "name": "Soul Explosion"
+  },
+  {
+    "id": 3028234315,
+    "class_name": "upgrade_absorbing_armor",
+    "name": "Witchmail"
+  },
+  {
+    "id": 1427630806,
+    "class_name": "upgrade_healbuff",
+    "name": "Healing Tempo"
+  },
+  {
+    "id": 3346798998,
+    "class_name": "upgrade_infinitemagazine",
+    "name": "Endless Magazine"
+  },
+  {
+    "id": 1497973293,
+    "class_name": "upgrade_glass_cannon2",
+    "name": "Glass Cannon v2"
+  },
+  {
+    "id": 673001892,
+    "class_name": "upgrade_aprounds",
+    "name": "Armor Piercing Rounds"
+  },
+  {
+    "id": 3269957497,
+    "class_name": "upgrade_infinite_rounds",
+    "name": "Infinite Rounds"
+  },
+  {
+    "id": 3491236900,
+    "class_name": "upgrade_deflecting_armor",
+    "name": "Plated Armor"
+  },
+  {
+    "id": 1955841979,
+    "class_name": "upgrade_spellbreaker",
+    "name": "Spellbreaker"
+  },
+  {
+    "id": 1250307611,
+    "class_name": "upgrade_juggernaut",
+    "name": "Juggernaut"
+  },
+  {
+    "id": 2221211450,
+    "class_name": "upgrade_enchanted_holsters",
+    "name": "Spellslinger"
+  },
+  {
+    "id": 98582110,
+    "class_name": "upgrade_weapon_backstabber",
+    "name": "Backstabber"
+  },
+  {
+    "id": 690458959,
+    "class_name": "upgrade_express_shot",
+    "name": "Express Shot"
+  },
+  {
+    "id": 1736094134,
+    "class_name": "upgrade_icarus_wings",
+    "name": "Seraphim Wings"
+  },
+  {
+    "id": 2054088113,
+    "class_name": "upgrade_mystical_piano",
+    "name": "Mystical Piano"
+  },
+  {
+    "id": 3949773228,
+    "class_name": "upgrade_nullification_aura",
+    "name": "Nullification Burst"
+  },
+  {
+    "id": 3729138568,
+    "class_name": "upgrade_celestial_guidance",
+    "name": "Celestial Blessing"
+  },
+  {
+    "id": 230297145,
+    "class_name": "upgrade_eternal_gift",
+    "name": "Eternal Gift"
+  },
+  {
+    "id": 4050602737,
+    "class_name": "upgrade_patrons_blessing",
+    "name": "Mystic Conduit"
+  },
+  {
+    "id": 3568217437,
+    "class_name": "upgrade_eldritch_shot",
+    "name": "Haunting Shot"
+  },
+  {
+    "id": 3523480953,
+    "class_name": "upgrade_cloak_of_opportunity",
+    "name": "Cloak of Opportunity"
+  },
+  {
+    "id": 64550694,
+    "class_name": "upgrade_runed_gauntlets",
+    "name": "Runed Gauntlets"
+  },
+  {
+    "id": 1825399334,
+    "class_name": "upgrade_electric_slippers",
+    "name": "Electric Slippers"
+  },
+  {
+    "id": 1132564516,
+    "class_name": "upgrade_prism_blast",
+    "name": "Prism Blast"
+  },
+  {
+    "id": 1558545403,
+    "class_name": "upgrade_unstable_concoction",
+    "name": "Unstable Concoction"
+  },
+  {
+    "id": 2068250483,
+    "class_name": "upgrade_shivas_bracelet",
+    "name": "Frostbite Charm"
+  },
+  {
+    "id": 2319629810,
+    "class_name": "upgrade_shadow_strike",
+    "name": "Shadow Strike"
+  },
+  {
+    "id": 3294954488,
+    "class_name": "upgrade_bulletshredimbue",
+    "name": "Ballistic Enchantment"
+  },
+  {
+    "id": 1763073141,
+    "class_name": "upgrade_rechargingbullets",
+    "name": "Recharging Rush"
+  },
+  {
+    "id": 2029849853,
+    "class_name": "citadel_weapon_priest_set",
+    "name": "51:20"
+  },
+  {
+    "id": 2559648467,
+    "class_name": "ability_melee_priest",
+    "name": "Melee"
+  },
+  {
+    "id": 1764146857,
+    "class_name": "ability_priest_knockback",
+    "name": "Gutshot"
+  },
+  {
+    "id": 3093645682,
+    "class_name": "ability_priest_selfheal",
+    "name": "Potent Vapors"
+  },
+  {
+    "id": 2260066289,
+    "class_name": "ability_priest_stackingdefense",
+    "name": "Grit"
+  },
+  {
+    "id": 4158849812,
+    "class_name": "ability_priest_barrage",
+    "name": "Witching Hour"
+  },
+  {
+    "id": 519002049,
+    "class_name": "citadel_weapon_priest_crossbow",
+    "name": "Ira Domini"
+  },
+  {
+    "id": 2918874166,
+    "class_name": "ability_priest_weaponswap",
+    "name": "Ira Domini"
+  },
+  {
+    "id": 476551004,
+    "class_name": "ability_priest_smokegrenade",
+    "name": "Teargas Grenade"
+  },
+  {
+    "id": 1034605902,
+    "class_name": "ability_priest_antispiritvest",
+    "name": "Blessed Tac-Vest"
+  },
+  {
+    "id": 2443795083,
+    "class_name": "ability_priest_silencebomb",
+    "name": "Choking Incense"
+  },
+  {
+    "id": 911307831,
+    "class_name": "ability_priest_flashbang",
+    "name": "Consecrating Grenade"
+  },
+  {
+    "id": 11154161,
+    "class_name": "ability_priest_beartrap",
+    "name": "Hex-Lined Snap Trap"
+  },
+  {
+    "id": 932332550,
+    "class_name": "ability_familiar_alt_weapon",
+    "name": "ability_familiar_alt_weapon"
+  },
+  {
+    "id": 1961336982,
+    "class_name": "ability_familiar_primary_weapon_bubblegun",
+    "name": "Gun Damage"
+  },
+  {
+    "id": 2247993425,
+    "class_name": "ability_melee_familiar",
+    "name": "Melee"
+  },
+  {
+    "id": 3692321247,
+    "class_name": "ability_familiar_ability02",
+    "name": "Pillow Toss"
+  },
+  {
+    "id": 2396527575,
+    "class_name": "ability_familiar_ability01",
+    "name": "Naptime"
+  },
+  {
+    "id": 536278136,
+    "class_name": "ability_familiar_helpinghands",
+    "name": "Lil Helpers"
+  },
+  {
+    "id": 1568845221,
+    "class_name": "ability_familiar_attach",
+    "name": "Tag Along"
+  },
+  {
+    "id": 1769657144,
+    "class_name": "citadel_weapon_fencer_set",
+    "name": "Pride of Ixia"
+  },
+  {
+    "id": 1470169038,
+    "class_name": "citadel_weapon_fencer_alt",
+    "name": "Pride of Ixia"
+  },
+  {
+    "id": 1224118768,
+    "class_name": "ability_melee_fencer",
+    "name": "Melee"
+  },
+  {
+    "id": 725153709,
+    "class_name": "ability_fencer_throwblade",
+    "name": "Disengaging Sigil"
+  },
+  {
+    "id": 2006773718,
+    "class_name": "ability_fencer_riposte",
+    "name": "Riposte"
+  },
+  {
+    "id": 1038215260,
+    "class_name": "ability_fencer_riposte_attack",
+    "name": "Riposte"
+  },
+  {
+    "id": 147493976,
+    "class_name": "ability_fencer_lunge",
+    "name": "Flawless Advance"
+  },
+  {
+    "id": 494112189,
+    "class_name": "ability_fencer_ultimate",
+    "name": "Itani Lo Sahn"
+  },
+  {
+    "id": 2834635521,
+    "class_name": "citadel_weapon_necro_set",
+    "name": "The Teacher"
+  },
+  {
+    "id": 406697186,
+    "class_name": "ability_melee_necro",
+    "name": "Melee"
+  },
+  {
+    "id": 4037997490,
+    "class_name": "ability_necro_summonskele",
+    "name": "Gravedigging"
+  },
+  {
+    "id": 2001589780,
+    "class_name": "ability_necro_zombiewall",
+    "name": "Grasping Hands"
+  },
+  {
+    "id": 3214055642,
+    "class_name": "ability_necro_hauntingskull",
+    "name": "Jar of Dead"
+  },
+  {
+    "id": 4110547059,
+    "class_name": "ability_necro_gravestone",
+    "name": "Borrowed Decree"
+  },
+  {
+    "id": 2750845124,
+    "class_name": "ability_necro_killsummon",
+    "name": "Borrow Life"
+  },
+  {
+    "id": 152191637,
+    "class_name": "ability_necro_nukemap",
+    "name": "ability_necro_nukemap"
+  },
+  {
+    "id": 3708354687,
+    "class_name": "ability_necro_killsummon_trigger",
+    "name": "ability_necro_killsummon_trigger"
+  },
+  {
+    "id": 1777769116,
+    "class_name": "ability_necro_coffin",
+    "name": "Back Off!"
+  },
+  {
+    "id": 629925354,
+    "class_name": "ability_necro_fear",
+    "name": "Essence Theft"
+  },
+  {
+    "id": 1991038380,
+    "class_name": "ability_necro_haunt",
+    "name": "Haunting Spectres"
+  },
+  {
+    "id": 2462670856,
+    "class_name": "ability_necro_wither",
+    "name": "Wither & Die"
+  },
+  {
+    "id": 2362587754,
+    "class_name": "ability_melee_werewolf",
+    "name": "Melee"
+  },
+  {
+    "id": 3922245490,
+    "class_name": "citadel_weapon_werewolf_rifle",
+    "name": "citadel_weapon_werewolf_rifle"
+  },
+  {
+    "id": 3995444919,
+    "class_name": "citadel_weapon_werewolf_claws",
+    "name": "Lycan Claws"
+  },
+  {
+    "id": 1385849824,
+    "class_name": "ability_werewolf_unloadgun",
+    "name": "Slam Fire"
+  },
+  {
+    "id": 2717130900,
+    "class_name": "ability_werewolf_kickflip",
+    "name": "Boot Kick"
+  },
+  {
+    "id": 4009459244,
+    "class_name": "ability_werewolf_maulingleap",
+    "name": "Mauling Leap"
+  },
+  {
+    "id": 3983754897,
+    "class_name": "ability_werewolf_netshot",
+    "name": "Entangling Bola"
+  },
+  {
+    "id": 3117047651,
+    "class_name": "ability_werewolf_cripplingslash",
+    "name": "Tail Whack"
+  },
+  {
+    "id": 3200615766,
+    "class_name": "ability_werewolf_trackingbomb",
+    "name": "ability_werewolf_trackingbomb"
+  },
+  {
+    "id": 515791019,
+    "class_name": "ability_werewolf_transformation",
+    "name": "Lycan Curse"
+  },
+  {
+    "id": 2074867748,
+    "class_name": "ability_werewolf_hunt",
+    "name": "ability_werewolf_hunt"
+  },
+  {
+    "id": 2554327994,
+    "class_name": "ability_werewolf_onthehunt",
+    "name": "On The Hunt"
+  },
+  {
+    "id": 2565763509,
+    "class_name": "ability_werewolf_frenzy",
+    "name": "Go For The Throat"
+  },
+  {
+    "id": 3867044190,
+    "class_name": "ability_werewolf_leap",
+    "name": "Crushing Leap"
+  },
+  {
+    "id": 3744272782,
+    "class_name": "citadel_weapon_unicorn_set",
+    "name": "Carny Life"
+  },
+  {
+    "id": 3021389868,
+    "class_name": "ability_melee_unicorn",
+    "name": "Melee"
+  },
+  {
+    "id": 3443575800,
+    "class_name": "ability_unicorn_radiantblast",
+    "name": "Light Eater"
+  },
+  {
+    "id": 1950738949,
+    "class_name": "ability_unicorn_prismaticguard",
+    "name": "Dazzling Trick"
+  },
+  {
+    "id": 2590796390,
+    "class_name": "ability_unicorn_dazzlingorb",
+    "name": "Shining Wonder"
+  },
+  {
+    "id": 1011349580,
+    "class_name": "ability_unicorn_luminousstrike",
+    "name": "Radiant Daggers"
+  }
+]
