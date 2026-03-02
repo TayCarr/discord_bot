@@ -9,7 +9,7 @@ module.exports = {
     description: "Fetch player stats by Steam ID", //TODO maybe change
     async execute(message, args){
         if (!args[0]){
-            return message.reply("You must provide a Steam ID. Example `!dlstats Tayllor`");
+            return message.reply("You must provide a Steam ID. Example `!dlstats 76561198089969130`");
         }
 
         const steamID = args[0];
