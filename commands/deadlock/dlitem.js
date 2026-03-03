@@ -6,6 +6,16 @@
 const { request } = require('undici');
 const items = require('../../data/items.json');
 
+function cleanDescription(text) {
+    if (!text) return "No description available.";
+  
+    return text
+      .replace(/<[^>]*>/g, "") // remove HTML tags
+      .replace(/&nbsp;/g, " ")
+      .replace(/&amp;/g, "&")
+      .trim();
+  }
+
 module.exports = {
     name: "dlitem",
     description: "Fetch item info and stats", //TODO maybe change
@@ -41,15 +51,45 @@ module.exports = {
                 embeds: [
                     {
                         title: `${itemData.name}`,
+                        description: cleanDescription(itemData.description?.desc),
+
+                        //image: {url: itemData.shop_image}, //large artwork
+                        thumbnail: { url: itemData.shop_image },//thumbnail
                         fields:[
-                            {name: "", value: `${itemData.shop_image}`, inline: false},
-                            {name: "", value: `${itemData.description.desc}`, inline: false}, //TODO the desc sometimes has like css styles or something ummmm sigh
-                            {name: "Is active item?", value: `${itemData.is_active_item}`, inline: false},
-                            {name: "Cost:", value: `${itemData.cost}`, inline: false},
-                            {name: "Type:", value: `${itemData.item_slot_type}`, inline: false},
-                            {name: "Item Cooldown:", value: `${itemData.properties.AbilityCooldown.value} seconds`, inline: false},
-                            {name: "Item Duration:", value: `${itemData.properties.AbilityDuration.value} seconds`, inline: false},
-                            {name: "Item Tier:", value: `${itemData.item_tier}`, inline: false},
+                            //{name: "", value: `${itemData.shop_image}`, inline: false},
+                            //{name: "", value: `${itemData.description.desc}`, inline: false}, //TODO the desc sometimes has like css styles or something ummmm sigh
+                            //{name: "Is active item?", value: `${itemData.is_active_item}`, inline: false},
+                            {
+                                name: "Type",
+                                value: itemData.item_slot_type || "N/A",
+                                inline: true
+                              },
+                              {name: "Item Tier", value: `${itemData.item_tier}`, inline: true},
+                            {name: "Cost", value: `${itemData.cost}`, inline: true},
+                            //{name: "Type:", value: `${itemData.item_slot_type}`, inline: false},
+                            
+                              {
+                                name: "Active Item",
+                                value: itemData.is_active_item ? "Yes" : "No",
+                                inline: true
+                              },
+                            //{name: "Item Cooldown:", value: `${itemData.properties.AbilityCooldown.value} seconds`, inline: false},
+                            {
+                                name: "Cooldown",
+                                value: itemData.properties?.AbilityCooldown?.value
+                                  ? `${itemData.properties.AbilityCooldown.value} sec`
+                                  : "N/A",
+                                inline: true
+                              },
+                            //{name: "Item Duration:", value: `${itemData.properties.AbilityDuration.value} seconds`, inline: false},
+                            {
+                                name: "Duration",
+                                value: itemData.properties?.AbilityDuration?.value
+                                  ? `${itemData.properties.AbilityDuration.value} sec`
+                                  : "N/A",
+                                inline: true
+                              },
+                            
                         ],
                         color: 0x00AE86 //TODO
                     }
