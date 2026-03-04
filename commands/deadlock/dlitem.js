@@ -91,7 +91,7 @@ module.exports = {
                               },
                             
                         ],
-                        color: 0x00AE86 //TODO
+                        color: 0x00AE86 //TODO maybe change it based on what the item is like gun spirit vitality??
                     }
                 ]
             });
