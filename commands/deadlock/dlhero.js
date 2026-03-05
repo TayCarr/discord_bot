@@ -3,6 +3,20 @@
 //i think for this command it will pull up the hero and have a little profile on them 
 //pull basic info initially and later I would like to maybe have winrate, pickrate etc
 
+//getting help from gpt to incorporate discord buttons at first i was doing reactions but i saw the suggestion to do faster cleaner version of discord buttons !!
+//buttons will have pages for the abilities stat info going to start very basic with the shared stats
+//later will have to expand on each indiv hero stats
+//TODO add a page with hero stats that are like win rate ban rate pick rate etc more high level player stat stuff
+//suggested items?
+//just build on it i guess...
+
+const { 
+    ActionRowBuilder, 
+    ButtonBuilder, 
+    ButtonStyle, 
+    ComponentType 
+} = require('discord.js'); //import button components 
+
 
 const { request } = require('undici');
 
@@ -10,7 +24,9 @@ function cleanDescription(text) {//TODO not sure if I need maybe there is html t
     if (!text) return "No description available.";
   
     return text
-      .replace(/<[^>]*>/g, "") // remove HTML tags
+    //rem has this in his text should be "Tag Along" {g:citadel_binding:'Ability2'} 
+      .replace(/<[^>]*>/g, " ") // remove HTML tags
+      .replace(/\n/g, " ")
       .replace(/&nbsp;/g, " ")
       .replace(/&amp;/g, "&")
       .trim();
@@ -21,7 +37,7 @@ module.exports = {
     description: "Fetch hero info and stats", //TODO maybe change
     async execute(message, args){
         if (!args[0]){
-            return message.reply("You must provide a hero name. Example `!dlhero Rem`"); //i guess need to check multiple args?
+            return message.reply("You must provide a hero name. Example `!dlhero Rem`"); 
         }
 
         const heroName = args.join(' ').toLowerCase();
@@ -49,7 +65,7 @@ module.exports = {
             const heroAbilities = await response2.json();
             
             //i was building some loop but ummm asking chatgpt and was given this
-            const ability_names = [];
+            /******const ability_names = [];
             for (let i = 1; i <= 4; i++) {
                 const abilityOrder = heroData.items[`signature${i}`];//didnt know how to access this way and was given the rest lmao
             
@@ -60,12 +76,59 @@ module.exports = {
                 if (ability) {
                     ability_names.push(ability.name);
                 }
-            }
+            }******/
             //console.log(ability_names);
+
+            //save the entire ability in order for later access in the different card pages 
+            const abilities = [];
+
+            for(let i = 1; i <= 4; i++){
+                const abilityOrder = heroData.items[`signature${i}`];
+
+                const ability = heroAbilities.find(a => a.class_name === abilityOrder);
+                if(ability){
+                    abilities.push(ability);
+                }
+            }
+
+            //create buttons
+            const row = new ActionRowBuilder()
+            .addComponents(
+                new ButtonBuilder()
+                .setCustomId('hero')
+                .setLabel('Hero')
+                .setStyle(ButtonStyle.Primary),
+
+                new ButtonBuilder()
+                .setCustomId('ability1')
+                .setLabel('1')
+                .setStyle(ButtonStyle.Secondary),
+
+                new ButtonBuilder()
+                .setCustomId('ability2')
+                .setLabel('2')
+                .setStyle(ButtonStyle.Secondary),
+
+                new ButtonBuilder()
+                .setCustomId('ability3')
+                .setLabel('3')
+                .setStyle(ButtonStyle.Secondary),
+
+                new ButtonBuilder()
+                .setCustomId('ability4')
+                .setLabel('4')
+                .setStyle(ButtonStyle.Secondary),
+            )
+
+            //TODO fill this embed instead ig
+            /*const heroEmbed = {
+                title: `${heroData.name}`,
+                ...
+            }; */
 
             
             const card = await message.reply({
-                embeds: [
+                embeds: [ //TODO define the embed separately, it keeps getting suggested...
                     {
                         title: `${heroData.name}`,
                         //TODO hero abilities !!!
@@ -76,14 +139,12 @@ module.exports = {
                         fields:[
                             //{name: "", value: heroData.hideout_rich_presence || "N/A", inline: true},//i do like this but idk where to put... TODO
                             {name: "Difficulty", value: `${heroData.complexity}`, inline: true},
-                            //{name: "Type:", value: `${itemData.item_slot_type}`, inline: false},
                             {
                                 name: "Gun",
                                 thumbnail: heroData.shop_stat_display.weapon_image,
                                 value: heroData.gun_tag || "idk its a candle",
                                 inline: false
                               },
-                            //{name: "Item Duration:", value: `${itemData.properties.AbilityDuration.value} seconds`, inline: false},
                             {
                                 name: "Hero Type",
                                 value: heroData.hero_type || "*little guy*",
@@ -100,7 +161,7 @@ module.exports = {
                             {
                                 name: "**Abilities:**",
                                 //TODO silver has the second set of abilities (bootkick->ability_werewolf_maulingleap) SIGH they dont have the hero id linked to it 
-                                value: `${ability_names[0]} | ${ability_names[1]} | ${ability_names[2]} | **${ability_names[3]}**`, 
+                                value: `${abilities[0].name} | ${abilities[1].name} | ${abilities[2].name} | **${abilities[3].name}**`, 
                                 inline: true
                             }
                             //possible values
@@ -113,26 +174,80 @@ module.exports = {
                                 (heroData.colors.ui[1] << 8) +
                                 heroData.colors.ui[2])
                     }
-                ]
+                ],
+                components: [row]
             });
 
-            //TODO work on reaction stuff
-            const reactions = ["0️⃣","1️⃣","2️⃣","3️⃣","4️⃣"];
+            //add button listener
+            const collector = card.createMessageComponentCollector({
+                ComponentType: ComponentType.Button,
+                time: 60000 //stop listening after 60 seconds
+            });
 
-            for (const r of reactions) {
-                await card.react(r);
-            }
+            //handle button press
+            collector.on('collect', async(interaction) => {
+                if(interaction.user.id !== message.author.id){ //if the user is not the original author 
+                    return interaction.reply({
+                        content: "back off.",
+                        ephemeral: true //TODO whats this
+                    });
+                }
+
+                //hero button
+                if(interaction.customId === "hero"){
+                    return interaction.update({
+                        embeds: [heroEmbed], //TODO will need to do the embed builder...
+                        components: [row]
+                    });
+                }
+
+                //ability buttons
+                //TODO think of way for it to be customized with hero abilities and each ability is also custom...
+                const abilityIndex = parseInt(interaction.customId.replace("ability", "")) - 1;
+
+                const ability = abilities[abilityIndex];
+
+                const abilityEmbed = {
+                    title: `${heroData.name} - ${ability.name}`,
+                    description: cleanDescription(ability.description.desc), //TODO these descriptions are FUCKED
+                    thumbnail:{
+                        url: ability.image
+                    },
+                    fields:[
+                        {
+                            name: "Cooldown",
+                            value: `${ability.properties.AbilityCooldown.value}` || "0",
+                            inline: false
+                        },
+                        {
+                            name: "Ability Duration",
+                            value: `${ability.properties.AbilityDuration.value}` || "0",
+                            inline: false
+                        },
+                        {
+                            name: "Damage",
+                            //value: ability.properties.Damage.value || "0",//not all abilities have dmg...
+                            value: "aaaaaa",
+                            inline: false
+                        },
+                    ],
+
+                    color: ((heroData.colors.ui[0] << 16) +
+                            (heroData.colors.ui[1] << 8) +
+                            heroData.colors.ui[2])
+                };
+
+                await interaction.update({
+                    embeds: [abilityEmbed],
+                    components: [row]
+                });
+            });
+
             
+
         }catch (err){
             console.error(err);
             message.reply("There was an error fetching hero stats :(");
-        }
-
-        //TODO work on reaction stuff
-        const reactions = ["0️⃣","1️⃣","2️⃣","3️⃣","4️⃣"];
-
-        for (const r of reactions) {
-            await card.react(r);
         }
 
     }
