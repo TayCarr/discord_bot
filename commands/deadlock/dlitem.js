@@ -6,13 +6,41 @@
 const { request } = require('undici');
 const items = require('../../data/items.json');
 
-function cleanDescription(text) {
-    if (!text) return "No description available.";
+function cleanDescription(itemInfo) {
+    //TODO 4075861416 (spirit rend) 2 passives it uses locstring 710436191 (capacitor) has passive as locstring but the active is in desc (but also in loc str)
+    //800008313 (crushing fists) same thing as capacitor, 3585132399 (fortitude) 2 passives both in loc 2947183272 (radiant regeneration)
+    //3361811174 (cheat death) only one loc string idk why none in desc same with 1250307611 (juggernaut) 3577481646 (mystic reverb)
+    //493591231 (lightning scroll) has like a little disclaimer only in loc section 
+    if (!itemInfo.desc){
+        if (!itemInfo.passive && !itemInfo.active){
+            return "Item name is self explanatory (maybe).";
+        } 
+        else{
+            text = itemInfo.passive;
+        }
+
+    }
+    else{
+        text = itemInfo.desc;
+    }
+
+    if(itemInfo.active){
+        if(!text){
+            text = itemInfo.active;
+        }
+        else{
+            text = text + '** Active: **' + itemInfo.active;
+        }
+        
+    }
   
+     
     return text
-      .replace(/<[^>]*>/g, "") // remove HTML tags
+      .replace(/<[^>]*>/g, " ") // remove HTML tags
+      .replace(/\n/g, " ")
       .replace(/&nbsp;/g, " ")
       .replace(/&amp;/g, "&")
+      .replace(/{g:citadel_binding:'Reload'}/g, " reload ")
       .trim();
   }
 
@@ -26,6 +54,7 @@ module.exports = {
 
         const itemName = args.join(' ').toLowerCase();
         console.log(`looking for ${itemName}`);
+        //hunter's aura and diviner's kevlar(needs ') and high-velocity rounds (needs -) kinda annoying maybe add without into data saved for both
 
         const found = items.find(item =>
             item.name.toLowerCase() === itemName || //passes
@@ -46,12 +75,16 @@ module.exports = {
                 `https://assets.deadlock-api.com/v2/items/${found.id}`
             );
             const itemData = await response.json();
-            
+
+            //TODO i want to have the stat adjustments displayed too !!!
             await message.reply({//for active item could instead assign string if false or true 
                 embeds: [
                     {
                         title: `${itemData.name}`,
-                        description: cleanDescription(itemData.description?.desc),
+                        description: cleanDescription(itemData.description),
+                        //description: cleanDescription(itemData.description?.desc), //siphon bullets (ex) is itemData.description.passive aaaaaaaa
+                        //i thought maybe a other passive items also had .passive but NO siphon bullets ???? why????
+                        //extended magazine just no description
 
                         //image: {url: itemData.shop_image}, //large artwork
                         thumbnail: { url: itemData.shop_image },//thumbnail
@@ -89,6 +122,7 @@ module.exports = {
                                   : "N/A",
                                 inline: true
                               },
+                              //TODO maybe could add upgrade if have any??
                             
                         ],
                         color: 0x00AE86 //TODO maybe change it based on what the item is like gun spirit vitality??
