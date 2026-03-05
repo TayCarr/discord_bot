@@ -14,7 +14,10 @@ module.exports = {
                         {name: "**!profile**", value: `\t-> view your profile card`, inline: false},
                         {name: "**!inventory**", value: `\t-> view what is in your inventory`, inline: false},
                         {name: "**!fish**", value: `\t-> fish for fish`, inline: false},
+                        {name: "\n*Deadlock Commands*", value: "", inline: false},
                         {name: "**!dlstats <SteamID>**", value: `\t-> view players Deadlock stats`, inline: false},
+                        {name: "**!dlitem <Item Name or ID>**", value: `\t-> view item stats`, inline: false},
+                        {name: "**!dlhero <Hero Name>**", value: `\t-> view hero and ability stats`, inline: false},
                     ],
                     color: 0x00AE86 //TODO
                 }

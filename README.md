@@ -9,3 +9,7 @@ commands
 !profile
 !fish
 !inventory
+
+!dlstats <steamID>
+!dlhero <heroName>
+!dlitem <itemName || itemID>
