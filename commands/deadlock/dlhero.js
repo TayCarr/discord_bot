@@ -47,50 +47,44 @@ module.exports = {
                 embeds: [
                     {
                         title: `${heroData.name}`,
-                        description: heroData.description.lore,//some of the descriptions are sooooo long so maybe i just do tags?
+                        //TODO hero abilities !!!
+                        //description: heroData.description.lore,//some of the descriptions are sooooo long so maybe i just do tags?//i think i do a sep lore command!!
                         //.role and .playstyle but all the new heros are missing it?
-                        description: heroData.tags.join(', '), //perhaps? returns a list?
-                        //image: {url: itemData.shop_image}, //large artwork
+                        description: `*${heroData.tags.join(', ')}*`, 
                         thumbnail: { url: heroData.images.hero_card_gloat},//thumbnail
                         fields:[
-                            //{name: "", value: `${itemData.shop_image}`, inline: false},
-                            //{name: "", value: `${itemData.description.desc}`, inline: false}, //TODO the desc sometimes has like css styles or something ummmm sigh
-                            //{name: "Is active item?", value: `${itemData.is_active_item}`, inline: false},
-                            {
-                                name: "",
-                                value: heroData.hideout_rich_presence || "N/A",
-                                inline: true
-                              },
-                              {name: "Hero Complexity", value: `${heroData.complexity}`, inline: true},
-                            {name: "Starting Stats", value: `Max move speed: ${heroData.starting_stats.max_move_speed.value}\nSprint Speed: ${heroData.starting_stats.sprint_speed.value}\nLight melee damage: ${heroData.starting_stats.light_melee_damage.value}\nHeavy melee damage: ${heroData.starting_stats.heavy_melee_damage.value}\nMax health: ${heroData.starting_stats.max_health.value}\nBase health regen: ${heroData.starting_stats.base_health_regen.value}\nReload speed: ${heroData.starting_stats.reload_speed.value}\nStamina: ${heroData.starting_stats.stamina.value}\nStamina regen /s: ${heroData.starting_stats.stamina_regen_per_second.value}\n`, inline: true},
+                            //{name: "", value: heroData.hideout_rich_presence || "N/A", inline: true},//i do like this but idk where to put... TODO
+                            {name: "Difficulty", value: `${heroData.complexity}`, inline: true},
                             //{name: "Type:", value: `${itemData.item_slot_type}`, inline: false},
-                            
-                              {
-                                name: "Reductions",
-                                value: `Spirit: ${spiritReduc}%`,
-                                inline: true
-                              },
-                              {
-                                name: "",
-                                value: `Bullet: ${weaponReduc}%` ,
-                                inline: true
-                              },
-                              
-                            //{name: "Item Cooldown:", value: `${itemData.properties.AbilityCooldown.value} seconds`, inline: false},
                             {
                                 name: "Gun",
-                                value: heroData.gun_tag || "N/A",
-                                inline: true
+                                thumbnail: heroData.shop_stat_display.weapon_image,
+                                value: heroData.gun_tag || "idk its a candle",
+                                inline: false
                               },
                             //{name: "Item Duration:", value: `${itemData.properties.AbilityDuration.value} seconds`, inline: false},
                             {
                                 name: "Hero Type",
-                                value: heroData.hero_type || "N/A",
-                                inline: true
+                                value: heroData.hero_type || "*little guy*",
+                                inline: false
                               },
+                              {
+                                name: "Reductions",
+                                value: `Spirit: ${spiritReduc}%\nBullet: ${weaponReduc}%`,
+                                inline: false
+                              },
+                            {name: "Starting Stats", 
+                            value: `Max move speed: ${heroData.starting_stats.max_move_speed.value}\nSprint Speed: ${heroData.starting_stats.sprint_speed.value}\nLight melee damage: ${heroData.starting_stats.light_melee_damage.value}\nHeavy melee damage: ${heroData.starting_stats.heavy_melee_damage.value}\nMax health: ${heroData.starting_stats.max_health.value}\nBase health regen: ${heroData.starting_stats.base_health_regen.value}\nStamina: ${heroData.starting_stats.stamina.value}`, 
+                            inline: false},
+                            //possible values
+                            //Stamina regen /s: ${heroData.starting_stats.stamina_regen_per_second.value} //it looks like everyone has the same 0.2222 so i think removing since its standard rate
+                            //Reload speed: ${heroData.starting_stats.reload_speed.value} //looks like all heros are at 1
                             
                         ],
-                        color: 0x00AE86 //TODO the hero specific colour
+                        //pull the hero rgb but need to convert to number, just got this from gpt tbh bit shifting stuff
+                        color: ((heroData.colors.ui[0] << 16) +
+                                (heroData.colors.ui[1] << 8) +
+                                heroData.colors.ui[2])
                     }
                 ]
             });
