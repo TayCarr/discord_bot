@@ -42,6 +42,11 @@ module.exports = {
             if (heroData.starting_stats.bullet_armor_damage_reduction){
                 weaponReduc = heroData.starting_stats.bullet_armor_damage_reduction.value;
             }
+
+            const response2 = await fetch(
+                `https://assets.deadlock-api.com/v2/items/by-hero-id/${heroData.id}`
+            );
+            const heroAbilities = await response2.json();
             
             await message.reply({
                 embeds: [
@@ -76,6 +81,14 @@ module.exports = {
                             {name: "Starting Stats", 
                             value: `Max move speed: ${heroData.starting_stats.max_move_speed.value}\nSprint Speed: ${heroData.starting_stats.sprint_speed.value}\nLight melee damage: ${heroData.starting_stats.light_melee_damage.value}\nHeavy melee damage: ${heroData.starting_stats.heavy_melee_damage.value}\nMax health: ${heroData.starting_stats.max_health.value}\nBase health regen: ${heroData.starting_stats.base_health_regen.value}\nStamina: ${heroData.starting_stats.stamina.value}`, 
                             inline: false},
+                            {
+                                name: "**Abilities:**",
+                                value: `${heroAbilities[0].name} | ${heroAbilities[1].name} | ${heroAbilities[2].name} | **${heroAbilities[3].name}**`, 
+                                //out of order... billy abrams bebop calico doorman celeste graves holliday infernus ivy kelvin lady geist lash mcginnis mina mirage paige pocket sinclair venator victor viscous vyper warden wraith
+                                //and its like not the same out of order.... AAAAAA
+                                //i am just using hero item id look up idk if their ability order is better but i think thats also messed
+                                inline: true
+                            }
                             //possible values
                             //Stamina regen /s: ${heroData.starting_stats.stamina_regen_per_second.value} //it looks like everyone has the same 0.2222 so i think removing since its standard rate
                             //Reload speed: ${heroData.starting_stats.reload_speed.value} //looks like all heros are at 1
