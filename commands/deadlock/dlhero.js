@@ -48,7 +48,23 @@ module.exports = {
             );
             const heroAbilities = await response2.json();
             
-            await message.reply({
+            //i was building some loop but ummm asking chatgpt and was given this
+            const ability_names = [];
+            for (let i = 1; i <= 4; i++) {
+                const abilityOrder = heroData.items[`signature${i}`];//didnt know how to access this way and was given the rest lmao
+            
+                const ability = heroAbilities.find(
+                    a => a.class_name === abilityOrder
+                );
+            
+                if (ability) {
+                    ability_names.push(ability.name);
+                }
+            }
+            //console.log(ability_names);
+
+            
+            const card = await message.reply({
                 embeds: [
                     {
                         title: `${heroData.name}`,
@@ -83,10 +99,8 @@ module.exports = {
                             inline: false},
                             {
                                 name: "**Abilities:**",
-                                value: `${heroAbilities[0].name} | ${heroAbilities[1].name} | ${heroAbilities[2].name} | **${heroAbilities[3].name}**`, 
-                                //out of order... billy abrams bebop calico doorman celeste graves holliday infernus ivy kelvin lady geist lash mcginnis mina mirage paige pocket sinclair venator victor viscous vyper warden wraith
-                                //and its like not the same out of order.... AAAAAA
-                                //i am just using hero item id look up idk if their ability order is better but i think thats also messed
+                                //TODO silver has the second set of abilities (bootkick->ability_werewolf_maulingleap) SIGH they dont have the hero id linked to it 
+                                value: `${ability_names[0]} | ${ability_names[1]} | ${ability_names[2]} | **${ability_names[3]}**`, 
                                 inline: true
                             }
                             //possible values
@@ -101,9 +115,24 @@ module.exports = {
                     }
                 ]
             });
+
+            //TODO work on reaction stuff
+            const reactions = ["0️⃣","1️⃣","2️⃣","3️⃣","4️⃣"];
+
+            for (const r of reactions) {
+                await card.react(r);
+            }
+            
         }catch (err){
             console.error(err);
-            message.reply("There was an error fetching item stats :(");
+            message.reply("There was an error fetching hero stats :(");
+        }
+
+        //TODO work on reaction stuff
+        const reactions = ["0️⃣","1️⃣","2️⃣","3️⃣","4️⃣"];
+
+        for (const r of reactions) {
+            await card.react(r);
         }
 
     }
