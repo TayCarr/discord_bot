@@ -41,13 +41,21 @@ module.exports = {
         const itemName = args.join(' ').toLowerCase();
         console.log(`looking for ${itemName}`);
         //TODO hunter's aura and diviner's kevlar(needs ') and high-velocity rounds (needs -) kinda annoying maybe add without into data saved for both
+        const found = items.find(item =>
+            item.name.toLowerCase().includes(itemName)  || //passes
+            item.class_name.toLowerCase().includes(itemName)  || //passes
+            item.id == itemName || //cant do strict or it wont pass as int == str 
+            item.simple_name?.toLowerCase().includes(itemName)   //if simple_name exists run.toLowerCase else return undef        
+            );
 
+        /***************************
         const found = items.find(item =>
             item.name.toLowerCase() === itemName || //passes
             item.class_name.toLowerCase() === itemName || //passes
             item.id == itemName || //cant do strict or it wont pass as int == str 
-            item.simpleName.toLowerCase() === itemName          
+            item.simple_name?.toLowerCase() === itemName  //if simple_name exists run.toLowerCase else return undef        
             );
+        **************************/
             
 
         if(!found){

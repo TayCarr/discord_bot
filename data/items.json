@@ -2027,7 +2027,8 @@
   {
     "id": 3077079169,
     "class_name": "upgrade_high_velocity_mag",
-    "name": "High-Velocity Rounds"
+    "name": "High-Velocity Rounds",
+    "simple_name": "High Velocity Rounds"
   },
   {
     "id": 1437614329,
@@ -2943,7 +2944,8 @@
   {
     "id": 2820116164,
     "class_name": "upgrade_diviners_kevlar",
-    "name": "Diviner's Kevlar"
+    "name": "Diviner's Kevlar",
+    "simple_name": "Diviners Kevlar"
   },
   {
     "id": 2672389724,
