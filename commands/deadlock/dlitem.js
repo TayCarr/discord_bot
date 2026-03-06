@@ -7,35 +7,21 @@ const { request } = require('undici');
 const items = require('../../data/items.json');
 
 function cleanDescription(itemInfo) {
-    //TODO 4075861416 (spirit rend) 2 passives it uses locstring 710436191 (capacitor) has passive as locstring but the active is in desc (but also in loc str)
-    //800008313 (crushing fists) same thing as capacitor, 3585132399 (fortitude) 2 passives both in loc 2947183272 (radiant regeneration)
-    //3361811174 (cheat death) only one loc string idk why none in desc same with 1250307611 (juggernaut) 3577481646 (mystic reverb)
-    //493591231 (lightning scroll) has like a little disclaimer only in loc section 
-    if (!itemInfo.desc){
-        if (!itemInfo.passive && !itemInfo.active){
-            return "Item name is self explanatory (maybe).";
+    //TODO i think 3591231 lightning scroll has a section_attributes[1] aaaaaa the disclaimer that it only happens once per ult
+    let descString = ''; //if nothing in this then can return as item does not have a description else build the string from each index
+
+    for (let i = 0; i < itemInfo.length; i++) {
+        if(itemInfo[i].section_attributes[0].loc_string){ //.section_attributes is an array but it seems like .loc_string is always in [0].loc_string
+            //TODO check if it is passive or active and highlight that
+            descString += ` ${itemInfo[i].section_attributes[0].loc_string}`;
         } 
-        else{
-            text = itemInfo.passive;
-        }
+      }
 
+    if (descString === ''){
+        return "Item name is self explanatory (maybe)."; //for those items that do not have desc just stats
     }
-    else{
-        text = itemInfo.desc;
-    }
-
-    if(itemInfo.active){
-        if(!text){
-            text = itemInfo.active;
-        }
-        else{
-            text = text + '** Active: **' + itemInfo.active;
-        }
-        
-    }
-  
      
-    return text
+    return descString
       .replace(/<[^>]*>/g, " ") // remove HTML tags
       .replace(/\n/g, " ")
       .replace(/&nbsp;/g, " ")
@@ -54,12 +40,13 @@ module.exports = {
 
         const itemName = args.join(' ').toLowerCase();
         console.log(`looking for ${itemName}`);
-        //hunter's aura and diviner's kevlar(needs ') and high-velocity rounds (needs -) kinda annoying maybe add without into data saved for both
+        //TODO hunter's aura and diviner's kevlar(needs ') and high-velocity rounds (needs -) kinda annoying maybe add without into data saved for both
 
         const found = items.find(item =>
             item.name.toLowerCase() === itemName || //passes
             item.class_name.toLowerCase() === itemName || //passes
-            item.id == itemName //cant do strict or it wont pass as int == str          
+            item.id == itemName || //cant do strict or it wont pass as int == str 
+            item.simpleName.toLowerCase() === itemName          
             );
             
 
@@ -81,10 +68,8 @@ module.exports = {
                 embeds: [
                     {
                         title: `${itemData.name}`,
-                        description: cleanDescription(itemData.description),
-                        //description: cleanDescription(itemData.description?.desc), //siphon bullets (ex) is itemData.description.passive aaaaaaaa
-                        //i thought maybe a other passive items also had .passive but NO siphon bullets ???? why????
-                        //extended magazine just no description
+                        description: cleanDescription(itemData.tooltip_sections),
+                        //description: cleanDescription(itemData.description), //not all items have a desc in description (or passive or active) but i think all have loc_string in tooltip?
 
                         //image: {url: itemData.shop_image}, //large artwork
                         thumbnail: { url: itemData.shop_image },//thumbnail

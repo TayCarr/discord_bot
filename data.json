@@ -1,7 +1,7 @@
 {
     "242492149952675841": {
-        "xp": 1675,
-        "level": 40,
+        "xp": 1800,
+        "level": 42,
         "inventory": [
             "🐠 Uncommon Fish",
             "🐟 Common Fish",
@@ -9,6 +9,14 @@
             "🐟 Common Fish",
             "🐟 Common Fish"
         ],
-        "coins": 195
+        "coins": 205
+    },
+    "273670190506442752": {
+        "xp": 11,
+        "level": 3,
+        "inventory": [
+            "🐠 Uncommon Fish"
+        ],
+        "coins": 10
     }
 }

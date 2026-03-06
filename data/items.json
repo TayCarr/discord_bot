@@ -2402,7 +2402,8 @@
   {
     "id": 2481177645,
     "class_name": "upgrade_bullet_armor_reduction_aura",
-    "name": "Hunter's Aura"
+    "name": "Hunter's Aura",
+    "simple_name": "Hunters Aura"
   },
   {
     "id": 1962740586,
