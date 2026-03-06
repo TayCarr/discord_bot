@@ -40,7 +40,7 @@ module.exports = {
 
         const itemName = args.join(' ').toLowerCase();
         console.log(`looking for ${itemName}`);
-        //TODO hunter's aura and diviner's kevlar(needs ') and high-velocity rounds (needs -) kinda annoying maybe add without into data saved for both
+        //TODO sinc it will return first match could do returns list and allows user to pick or have them do the command again with specific name?
         const found = items.find(item =>
             item.name.toLowerCase().includes(itemName)  || //passes
             item.class_name.toLowerCase().includes(itemName)  || //passes
