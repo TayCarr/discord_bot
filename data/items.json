@@ -717,7 +717,7 @@
   {
     "id": 1336069669,
     "class_name": "mirage_tornado",
-    "name": "Tornado"
+    "name": "Dust Devil"
   },
   {
     "id": 2221949202,
@@ -980,19 +980,9 @@
     "name": "Enchanter's Satchel"
   },
   {
-    "id": 4025828983,
-    "class_name": "synth_grasp",
-    "name": "synth_grasp"
-  },
-  {
     "id": 938149308,
     "class_name": "synth_barrage",
     "name": "Barrage"
-  },
-  {
-    "id": 2274219904,
-    "class_name": "synth_blitz",
-    "name": "synth_blitz"
   },
   {
     "id": 2954330093,
@@ -1012,12 +1002,12 @@
   {
     "id": 1531378655,
     "class_name": "citadel_ability_tangotether",
-    "name": "Watcher's Covenant"
+    "name": "Kudzu Connection"
   },
   {
     "id": 4111222521,
     "class_name": "citadel_ability_tengu_urn",
-    "name": "Kudzu Bomb"
+    "name": "Entangling Thorns"
   },
   {
     "id": 3642273386,
@@ -1095,11 +1085,6 @@
     "name": "The Cube"
   },
   {
-    "id": 3584864021,
-    "class_name": "viscous_goo_puddle",
-    "name": "viscous_goo_puddle"
-  },
-  {
     "id": 4206531918,
     "class_name": "viscous_goo_bowling_ball",
     "name": "Goo Ball"
@@ -1160,11 +1145,6 @@
     "name": "Project Mind"
   },
   {
-    "id": 2220233739,
-    "class_name": "citadel_ability_psychic_daggers",
-    "name": "citadel_ability_psychic_daggers"
-  },
-  {
     "id": 1842576017,
     "class_name": "citadel_ability_wraith_rapidfire",
     "name": "Full Auto"
@@ -1173,11 +1153,6 @@
     "id": 1999680326,
     "class_name": "citadel_ability_card_toss",
     "name": "Card Trick"
-  },
-  {
-    "id": 94928941,
-    "class_name": "citadel_ability_psychic_pulse",
-    "name": "citadel_ability_psychic_pulse"
   },
   {
     "id": 495487721,
@@ -1247,17 +1222,12 @@
   {
     "id": 2566573207,
     "class_name": "citadel_ability_flying_strike",
-    "name": "Flying Strike"
+    "name": "Flying Slash"
   },
   {
     "id": 2366960452,
     "class_name": "citadel_ability_healing_slash",
     "name": "Crimson Slash"
-  },
-  {
-    "id": 3319782965,
-    "class_name": "citadel_ability_infinity_slash",
-    "name": "Shadow Transformation"
   },
   {
     "id": 988091080,
@@ -1490,11 +1460,6 @@
     "name": "Melee"
   },
   {
-    "id": 1017750200,
-    "class_name": "ability_vampirebat_doubledagger",
-    "name": "Double Dagger"
-  },
-  {
     "id": 2398133749,
     "class_name": "ability_vampirebat_batblink",
     "name": "Sanguine Retreat"
@@ -1685,19 +1650,14 @@
     "name": "ability_fortuna_ult"
   },
   {
-    "id": 4048744580,
-    "class_name": "citadel_weapon_frank_set",
+    "id": 2079380905,
+    "class_name": "citadel_weapon_frank_set2",
     "name": "Memento Mori"
   },
   {
     "id": 3745177128,
     "class_name": "ability_melee_frank",
     "name": "Melee"
-  },
-  {
-    "id": 2961882974,
-    "class_name": "ability_frank_shocktarget",
-    "name": "Pain Battery"
   },
   {
     "id": 3727084744,
@@ -1720,11 +1680,6 @@
     "name": "Pain Battery"
   },
   {
-    "id": 2079380905,
-    "class_name": "citadel_weapon_frank_set2",
-    "name": "Memento Mori"
-  },
-  {
     "id": 353851685,
     "class_name": "citadel_weapon_bookworm_set",
     "name": "Chapter's End"
@@ -1737,7 +1692,7 @@
   {
     "id": 604448162,
     "class_name": "ability_bookworm_dragonfire",
-    "name": "Conjure Dragon"
+    "name": "Bookwyrm"
   },
   {
     "id": 3054993162,
@@ -1747,7 +1702,7 @@
   {
     "id": 3553292912,
     "class_name": "ability_bookworm_knightbarrier",
-    "name": "Defend and Fight!"
+    "name": "Plot Armor"
   },
   {
     "id": 1841901343,
@@ -1847,7 +1802,7 @@
   {
     "id": 1264175662,
     "class_name": "drifter_shadow_mark",
-    "name": "Stalker's Mark"
+    "name": "drifter's Mark"
   },
   {
     "id": 1033019133,
@@ -2027,8 +1982,7 @@
   {
     "id": 3077079169,
     "class_name": "upgrade_high_velocity_mag",
-    "name": "High-Velocity Rounds",
-    "simple_name": "High Velocity Rounds"
+    "name": "High-Velocity Rounds"
   },
   {
     "id": 1437614329,
@@ -2403,8 +2357,7 @@
   {
     "id": 2481177645,
     "class_name": "upgrade_bullet_armor_reduction_aura",
-    "name": "Hunter's Aura",
-    "simple_name": "Hunters Aura"
+    "name": "Hunter's Aura"
   },
   {
     "id": 1962740586,
@@ -2944,8 +2897,7 @@
   {
     "id": 2820116164,
     "class_name": "upgrade_diviners_kevlar",
-    "name": "Diviner's Kevlar",
-    "simple_name": "Diviners Kevlar"
+    "name": "Diviner's Kevlar"
   },
   {
     "id": 2672389724,
@@ -3150,7 +3102,7 @@
   {
     "id": 98582110,
     "class_name": "upgrade_weapon_backstabber",
-    "name": "Backstabber"
+    "name": "Stalker"
   },
   {
     "id": 690458959,
@@ -3236,6 +3188,11 @@
     "id": 1763073141,
     "class_name": "upgrade_rechargingbullets",
     "name": "Recharging Rush"
+  },
+  {
+    "id": 2462046703,
+    "class_name": "upgrade_goose_egg",
+    "name": "Golden Goose Egg"
   },
   {
     "id": 2029849853,
@@ -3363,11 +3320,6 @@
     "name": "Riposte"
   },
   {
-    "id": 1038215260,
-    "class_name": "ability_fencer_riposte_attack",
-    "name": "Riposte"
-  },
-  {
     "id": 147493976,
     "class_name": "ability_fencer_lunge",
     "name": "Flawless Advance"
@@ -3386,11 +3338,6 @@
     "id": 406697186,
     "class_name": "ability_melee_necro",
     "name": "Melee"
-  },
-  {
-    "id": 4037997490,
-    "class_name": "ability_necro_summonskele",
-    "name": "Gravedigging"
   },
   {
     "id": 2001589780,

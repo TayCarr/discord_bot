@@ -1,3 +1,10 @@
+def need to clean up format for dlstats v ugly rn 
+dlhero work on building an external embed to pass to allow for the hero button to work 
+dlhero abilities need to work on pulling dif stats
+dlitem work on getting the propertie/important properties for weapon stats
+
+
+
 make inventory display nicer
 
 way to sell inventory !sell
